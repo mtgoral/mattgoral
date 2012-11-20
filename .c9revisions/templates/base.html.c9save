@@ -1,3 +1,4 @@
 {"ts":1353393328212,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1353393410146,"patch":[[{"diffs":[[1,"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <link rel=\"stylesheet\" href=\"style.css\" />\n    <title>{% block title %}My amazing site{% endblock %}</title>\n</head>\n\n<body>\n\n<h1>excuse me while I renovate</h1>\n{% block content %}{% endblock %}"]],"start1":0,"start2":0,"length1":0,"length2":239}]],"length":239,"saved":false}
 {"ts":1353393425925,"patch":[[{"diffs":[[0,"ent %}{% endblock %}"],[1,"\n\n</body>\n</html>"]],"start1":219,"start2":219,"length1":20,"length2":37}]],"length":256,"saved":false}
+{"ts":1353394230635,"patch":[[{"diffs":[[0,"    "],[-1,"<link rel=\"stylesheet\" href=\"style.css\" />\n    <title>{% block title %}My amazing site{% endblock %}"],[1,"\n    <title>"],[0,"</ti"]],"start1":40,"start2":40,"length1":108,"length2":20}]],"length":168,"saved":false}
