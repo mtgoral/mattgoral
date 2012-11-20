@@ -1,0 +1,4 @@
+{"ts":1353443873492,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1353443890172,"patch":[[{"diffs":[[1,"\n\n    <div id=\"content\">\n        <h2>contact</h2>\n        <div style=\"width:100%;height:50px;\"></div>\n\t\t<p class=\"medium\">say</p>\n        <a href=\"mailto:hi@mattgoral.com\" target=\"_blank\"><p class=\"medium\">hi@mattgoral.com</p></a><br/><br/>\n        <p class=\"medium\">call</p>\n        <p class=\"medium\">56769GORAL</p>\n\t</div>\n"]],"start1":0,"start2":0,"length1":0,"length2":325}]],"length":325,"saved":false}
+{"ts":1353443897814,"patch":[[{"diffs":[[1,"{% extends \"base.html\" %}\n\n{% block content %}"],[0,"\n\n    <d"]],"start1":0,"start2":0,"length1":8,"length2":54}]],"length":371,"saved":false}
+{"ts":1353443905976,"patch":[[{"diffs":[[0,"/p>\n\t</div>\n"],[1,"\n{% endblock %}"]],"start1":359,"start2":359,"length1":12,"length2":27}]],"length":386,"saved":false}
