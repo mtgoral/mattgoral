@@ -1,0 +1,9 @@
+{% if jewelry_list %}
+    <ul>
+    {% for item in jewelry_list %}
+        <li><a href="/jewelry/{{ item.id }}/">{{ item.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Nothing here.</p>
+{% endif %}

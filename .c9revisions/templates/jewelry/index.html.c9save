@@ -1,0 +1,2 @@
+{"ts":1353391517771,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1353391641433,"patch":[[{"diffs":[[1,"{% if jewelry_list %}\r\n    <ul>\r\n    {% for item in jewelry_list %}\r\n        <li><a href=\"/jewelry/{{ item.id }}/\">{{ item.title }}</a></li>\r\n    {% endfor %}\r\n    </ul>\r\n{% else %}\r\n    <p>Nothing here.</p>\r\n{% endif %}"]],"start1":0,"start2":0,"length1":0,"length2":220}]],"length":220,"saved":false}
