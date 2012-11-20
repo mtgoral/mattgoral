@@ -1,3 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>wooooooo!</h2>
+
 {% if jewelry_list %}
     <ul>
     {% for item in jewelry_list %}
@@ -7,3 +12,5 @@
 {% else %}
     <p>Nothing here.</p>
 {% endif %}
+
+{% endblock %}
