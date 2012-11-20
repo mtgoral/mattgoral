@@ -1,3 +1,4 @@
 {"ts":1353393481853,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1353393493157,"patch":[[{"diffs":[[1,"{% block content %}\r\n<h2>wooooooo!</h2>\r\n{% endblock %}"]],"start1":0,"start2":0,"length1":0,"length2":55}]],"length":55,"saved":false}
 {"ts":1353394363722,"patch":[[{"diffs":[[1,"{% extends \"base.html\" %}\r\n\r\n"],[0,"{% block"]],"start1":0,"start2":0,"length1":8,"length2":37}]],"length":84,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1353441306731,"patch":[[{"diffs":[[0,"%}\r\n"],[-1,"<h2>wooooooo!</h2"],[1,"    <div style=\"margin-top:50px;\" id=\"content\">\r\n\t\t<p class=\"big\">hello.</p>\r\n        <p class=\"big\">I make</p>\r\n        <p class=\"big\">digital art</p>\r\n\t</div"],[0,">\r\n{"]],"start1":46,"start2":46,"length1":25,"length2":167}]],"length":226,"saved":false}
