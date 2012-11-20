@@ -1,6 +1,6 @@
 from django.template import Context, loader
 from django.http import HttpResponse
+from django.shortcuts import render_to_response
 
-def home(request):
-    t = loader.get_template('index.html')
-    return HttpResponse(t)
+def home(request) :
+    return render_to_response("index.html")
