@@ -1,0 +1,18 @@
+from django.db import models
+
+class Jewelry(models.Model):
+    CATEGORIES = (
+        ('E', 'Earrings'),
+        ('B', 'Bracelet'),
+        ('R', 'Ring'),
+        ('N', 'Necklace'),
+    )
+    title = models.CharField(max_length=100)
+    description = models.CharField(max_length=500)
+    category = models.CharField(max_length=2, choices=CATEGORIES)
+    price = models.CharField(max_length=20)
+    paypal_id = models.CharField(max_length=30)
+    image1 = models.CharField(max_length=100)
+    image2 = models.CharField(max_length=100)
+    def __unicode__(self):
+        return self.title
