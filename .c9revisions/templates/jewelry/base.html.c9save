@@ -1,0 +1,2 @@
+{"ts":1353440367655,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1353440415347,"patch":[[{"diffs":[[1,"<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    \r\n    <title></title>\r\n</head>\r\n\r\n<body>\r\n\r\n<h1>jewelry</h1>\r\n\r\n{% block content %}{% endblock %}\r\n\r\n</body>\r\n</html>"]],"start1":0,"start2":0,"length1":0,"length2":164}]],"length":164,"saved":false}
