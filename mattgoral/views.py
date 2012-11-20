@@ -8,11 +8,11 @@ def home(request) :
 def work(request) :
     return render_to_response("work.html")
     
-def work(request) :
+def resume(request) :
     return render_to_response("resume.html")
     
-def work(request) :
+def about(request) :
     return render_to_response("about.html")
     
-def work(request) :
+def contact(request) :
     return render_to_response("contact.html")
