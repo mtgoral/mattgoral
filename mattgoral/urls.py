@@ -8,6 +8,9 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'mattgoral.views.home', name='home'),
     url(r'^work/$', 'mattgoral.views.work'),
+    url(r'^resume/$', 'mattgoral.views.resume'),
+    url(r'^about/$', 'mattgoral.views.about'),
+    url(r'^contact/$', 'mattgoral.views.contact'),
     # url(r'^mattgoral/', include('mattgoral.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

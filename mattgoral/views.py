@@ -7,3 +7,12 @@ def home(request) :
     
 def work(request) :
     return render_to_response("work.html")
+    
+def work(request) :
+    return render_to_response("resume.html")
+    
+def work(request) :
+    return render_to_response("about.html")
+    
+def work(request) :
+    return render_to_response("contact.html")

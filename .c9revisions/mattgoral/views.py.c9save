@@ -8,3 +8,4 @@
 {"ts":1353439864335,"patch":[[{"diffs":[[0,"sponse(\""],[1,"/"],[0,"index.ht"]],"start1":173,"start2":173,"length1":16,"length2":17}]],"length":194,"saved":false}
 {"ts":1353441179027,"patch":[[{"diffs":[[0,"se(\""],[-1,"/"],[0,"inde"]],"start1":177,"start2":177,"length1":9,"length2":8}]],"length":193,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1353441938466,"patch":[[{"diffs":[[0,"x.html\")"],[1,"\n    \ndef work(request) :\n    return render_to_response(\"work.html\")"]],"start1":185,"start2":185,"length1":8,"length2":76}]],"length":261,"saved":false}
+{"ts":1353443397659,"patch":[[{"diffs":[[0,"\"work.html\")"],[1,"\n    \ndef work(request) :\n    return render_to_response(\"resume.html\")\n    \ndef work(request) :\n    return render_to_response(\"about.html\")\n    \ndef work(request) :\n    return render_to_response(\"contact.html\")"]],"start1":249,"start2":249,"length1":12,"length2":222}]],"length":471,"saved":false}
