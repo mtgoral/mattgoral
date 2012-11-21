@@ -69,3 +69,12 @@
 {"ts":1353519309074,"patch":[[{"diffs":[[0,"rm name="],[1,"\"cart"],[0,"target=\""]],"start1":1921,"start2":1921,"length1":16,"length2":21}]],"length":3127,"saved":false}
 {"ts":1353519310369,"patch":[[{"diffs":[[0,"me=\"cart"],[1,"link"],[0,"target=\""]],"start1":1926,"start2":1926,"length1":16,"length2":20}]],"length":3131,"saved":false}
 {"ts":1353519311368,"patch":[[{"diffs":[[0,"cartlink"],[1,"\" "],[0,"target=\""]],"start1":1930,"start2":1930,"length1":16,"length2":18}]],"length":3133,"saved":false}
+{"ts":1353519369804,"patch":[[{"diffs":[[0,"  \r\n"],[-1,"    <img alt=\"\" border=\"0\" width=\"1\" height=\"1\"  \r\n        src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" >  "],[0,"\r\n</"]],"start1":2600,"start2":2600,"length1":128,"length2":8}]],"length":3013,"saved":false}
+{"ts":1353519370830,"patch":[[{"diffs":[[0,"ne\">  \r\n"],[-1,"\r\n"],[0,"</form> "]],"start1":2596,"start2":2596,"length1":18,"length2":16}]],"length":3011,"saved":false}
+{"ts":1353519377983,"patch":[[{"diffs":[[0," \r\n "],[-1,"       src=\"https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif\"   \r\n        alt=\"PayPal - The safer, easier way to pay online\""],[0,">  \r"]],"start1":2458,"start2":2458,"length1":145,"length2":8}]],"length":2874,"saved":false}
+{"ts":1353519379892,"patch":[[{"diffs":[[0,"er=\"0\"  "],[-1,"\r\n "],[0,">  \r\n</f"]],"start1":2451,"start2":2451,"length1":19,"length2":16}]],"length":2871,"saved":false}
+{"ts":1353519381767,"patch":[[{"diffs":[[0,"rder=\"0\""],[-1,"  "],[0,">  \r\n</f"]],"start1":2449,"start2":2449,"length1":18,"length2":16}]],"length":2869,"saved":false}
+{"ts":1353519384347,"patch":[[{"diffs":[[0,"mit\""],[-1," border=\"0\""],[0,">  \r"]],"start1":2442,"start2":2442,"length1":19,"length2":8}]],"length":2858,"saved":false}
+{"ts":1353519387703,"patch":[[{"diffs":[[0,"pe=\""],[-1,"image"],[1,"h"],[0,"\" na"]],"start1":2422,"start2":2422,"length1":13,"length2":9}]],"length":2854,"saved":false}
+{"ts":1353519388830,"patch":[[{"diffs":[[0," type=\"h"],[1,"idd"],[0,"\" name=\""]],"start1":2419,"start2":2419,"length1":16,"length2":19}]],"length":2857,"saved":false}
+{"ts":1353519389930,"patch":[[{"diffs":[[0,"pe=\"hidd"],[1,"en"],[0,"\" name=\""]],"start1":2422,"start2":2422,"length1":16,"length2":18}]],"length":2859,"saved":false}
