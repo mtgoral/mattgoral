@@ -11,4 +11,8 @@ def index(request):
     return HttpResponse(t.render(c))
     
 def detail(request, item_id):
-    return HttpResponse("Info for item " % item_id)
+    try:
+        p = Jewelry.objects.get(pk=item_id)
+    except Jewelry.DoesNotExist:
+        raise Http404
+    return render_to_response('jewelry/detail.html', {'item': p})
