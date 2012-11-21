@@ -22,3 +22,4 @@
 {"contributors":[],"silentsave":false,"ts":1353473207177,"patch":[[{"diffs":[[0,"\">\r\n"],[-1,"          <div class=\"span2\"><img class=\"jimg\" src=\"https://dl.dropbox.com/u/874495/ec2/jewelry/r.png\"></div>\r\n"],[0,"    "]],"start1":474,"start2":474,"length1":119,"length2":8}]],"length":1155,"saved":false}
 {"ts":1353473893565,"patch":[[{"diffs":[[0,"    $(\"#"],[-1,"all"],[1,"{% page %}"],[0,"\").addCl"]],"start1":1038,"start2":1038,"length1":19,"length2":26}]],"length":1162,"saved":false}
 {"ts":1353474044672,"patch":[[{"diffs":[[0,"$(\"#"],[-1,"{% page %}"],[1,"all"],[0,"\").a"]],"start1":1042,"start2":1042,"length1":18,"length2":11}]],"length":1155,"saved":false}
+{"ts":1353474266064,"patch":[[{"diffs":[[0,"\"active\");\r\n"],[1,"    $('.jj9').append('{% page %}');\r\n"],[0,"    </script"]],"start1":1061,"start2":1061,"length1":24,"length2":61}]],"length":1192,"saved":false}
