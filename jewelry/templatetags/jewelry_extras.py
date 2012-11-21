@@ -11,3 +11,4 @@ def jsonify(object):
     return simplejson.dumps(object)
 
 register.filter('jsonify', jsonify)
+jsonify.is_safe=True
