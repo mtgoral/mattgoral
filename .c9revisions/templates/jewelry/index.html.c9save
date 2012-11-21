@@ -23,3 +23,4 @@
 {"ts":1353473893565,"patch":[[{"diffs":[[0,"    $(\"#"],[-1,"all"],[1,"{% page %}"],[0,"\").addCl"]],"start1":1038,"start2":1038,"length1":19,"length2":26}]],"length":1162,"saved":false}
 {"ts":1353474044672,"patch":[[{"diffs":[[0,"$(\"#"],[-1,"{% page %}"],[1,"all"],[0,"\").a"]],"start1":1042,"start2":1042,"length1":18,"length2":11}]],"length":1155,"saved":false}
 {"ts":1353474266064,"patch":[[{"diffs":[[0,"\"active\");\r\n"],[1,"    $('.jj9').append('{% page %}');\r\n"],[0,"    </script"]],"start1":1061,"start2":1061,"length1":24,"length2":61}]],"length":1192,"saved":false}
+{"ts":1353474312208,"patch":[[{"diffs":[[0,"d('{"],[-1,"%"],[1,"{"],[0," page "],[-1,"%"],[1,"}"],[0,"}');"]],"start1":1092,"start2":1092,"length1":16,"length2":16}]],"length":1192,"saved":false}
