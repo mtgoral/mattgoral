@@ -78,3 +78,5 @@
 {"ts":1353519387703,"patch":[[{"diffs":[[0,"pe=\""],[-1,"image"],[1,"h"],[0,"\" na"]],"start1":2422,"start2":2422,"length1":13,"length2":9}]],"length":2854,"saved":false}
 {"ts":1353519388830,"patch":[[{"diffs":[[0," type=\"h"],[1,"idd"],[0,"\" name=\""]],"start1":2419,"start2":2419,"length1":16,"length2":19}]],"length":2857,"saved":false}
 {"ts":1353519389930,"patch":[[{"diffs":[[0,"pe=\"hidd"],[1,"en"],[0,"\" name=\""]],"start1":2422,"start2":2422,"length1":16,"length2":18}]],"length":2859,"saved":false}
+{"ts":1353519472553,"patch":[[{"diffs":[[0,"   <input type=\""],[-1,"hidden"],[1,"image"],[0,"\" name=\"submit\">"]],"start1":2410,"start2":2410,"length1":38,"length2":37},{"diffs":[[0,"\"submit\""],[1," "],[0,">  \r\n</f"]],"start1":2438,"start2":2438,"length1":16,"length2":17}]],"length":2859,"saved":false}
+{"ts":1353519477558,"patch":[[{"diffs":[[0,"submit\" "],[1,"border=\"0\"  \r\n        src=\"https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif\"   \r\n        alt=\"PayPal - The safer, easier way to pay online\""],[0,">  \r\n</f"]],"start1":2439,"start2":2439,"length1":16,"length2":168}]],"length":3011,"saved":false}
