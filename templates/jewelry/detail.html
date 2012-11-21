@@ -2,12 +2,16 @@
 
 {% block content %}
 
-<div style="width:800px;margin:10% auto;">
-
-<h1 style="font-family:Cinzel;">{{ item.title }}<br>
+<div class="container main-gallery">
+<div class="row">
+  <div class="span4 offset3">
+<p style="font-family:Cinzel;font-size:40px;">{{ item.title }}</p><br>
 <img src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}" onmouseover="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image2 }}'" onmouseout="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}'">
-
-{{ item.description }}<br>
+    </div>
+    
+    
+  <div class="span2">
+  {{ item.description }}<br>
 {{ item.price }}<br>
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -17,5 +21,11 @@
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 </div>
+
+  </div>
+
+</div>
+
+
 
 {% endblock %}
