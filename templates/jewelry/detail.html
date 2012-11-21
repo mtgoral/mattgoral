@@ -2,9 +2,12 @@
 
 {% block content %}
 
-{{ item.title }}<br>
+<div style="width:800px;margin:10% auto;">
+
+<h1 style="font-family:Cinzel;">{{ item.title }}<br>
+<img src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}" onmouseover="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image2 }}'" onmouseout="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}'">
+
 {{ item.description }}<br>
-{{ item.category }}<br>
 {{ item.price }}<br>
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -13,9 +16,6 @@
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-
-<br>
-<img src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}" onmouseover="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image2 }}'" onmouseout="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}'">
-
+</div>
 
 {% endblock %}
