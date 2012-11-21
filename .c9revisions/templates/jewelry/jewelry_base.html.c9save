@@ -59,3 +59,13 @@
 {"ts":1353518906484,"patch":[[{"diffs":[[0,"ue=\""],[-1,"kin@kinskards.com"],[0,"\">  "]],"start1":2141,"start2":2141,"length1":25,"length2":8}]],"length":3082,"saved":false}
 {"ts":1353518908176,"patch":[[{"diffs":[[0," value=\""],[1,"mtgoral@"],[0,"\">  \r\n  "]],"start1":2137,"start2":2137,"length1":16,"length2":24}]],"length":3090,"saved":false}
 {"ts":1353518909867,"patch":[[{"diffs":[[0,"mtgoral@"],[1,"mit.edu"],[0,"\">  \r\n  "]],"start1":2145,"start2":2145,"length1":16,"length2":23}]],"length":3097,"saved":false}
+{"ts":1353519283228,"patch":[[{"diffs":[[0,"a href=\""],[-1,"#"],[1,"javascript:getsupport('Paid')"],[0,"\">Shoppi"]],"start1":2741,"start2":2741,"length1":17,"length2":45}]],"length":3125,"saved":false}
+{"ts":1353519285828,"patch":[[{"diffs":[[0,"ort("],[-1,"'Paid'"],[0,")\">S"]],"start1":2767,"start2":2767,"length1":14,"length2":8}]],"length":3119,"saved":false}
+{"ts":1353519289320,"patch":[[{"diffs":[[0,"ipt:"],[-1,"getsupport"],[0,"()\">"]],"start1":2756,"start2":2756,"length1":18,"length2":8}]],"length":3109,"saved":false}
+{"ts":1353519291543,"patch":[[{"diffs":[[0,"ascript:"],[1,"cart"],[0,"()\">Shop"]],"start1":2752,"start2":2752,"length1":16,"length2":20}]],"length":3113,"saved":false}
+{"ts":1353519294620,"patch":[[{"diffs":[[0,"ascript:"],[1,"view"],[0,"cart()\">"]],"start1":2752,"start2":2752,"length1":16,"length2":20}]],"length":3117,"saved":false}
+{"ts":1353519305857,"patch":[[{"diffs":[[0,"  <form "],[1,"name"],[0,"target=\""]],"start1":1916,"start2":1916,"length1":16,"length2":20}]],"length":3121,"saved":false}
+{"ts":1353519307304,"patch":[[{"diffs":[[0,"orm name"],[1,"="],[0,"target=\""]],"start1":1920,"start2":1920,"length1":16,"length2":17}]],"length":3122,"saved":false}
+{"ts":1353519309074,"patch":[[{"diffs":[[0,"rm name="],[1,"\"cart"],[0,"target=\""]],"start1":1921,"start2":1921,"length1":16,"length2":21}]],"length":3127,"saved":false}
+{"ts":1353519310369,"patch":[[{"diffs":[[0,"me=\"cart"],[1,"link"],[0,"target=\""]],"start1":1926,"start2":1926,"length1":16,"length2":20}]],"length":3131,"saved":false}
+{"ts":1353519311368,"patch":[[{"diffs":[[0,"cartlink"],[1,"\" "],[0,"target=\""]],"start1":1930,"start2":1930,"length1":16,"length2":18}]],"length":3133,"saved":false}

@@ -37,7 +37,7 @@
             <ul class="nav pull-right">
             
             
-            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"  
+            <form name="cartlink" target="paypal" action="https://www.paypal.com/cgi-bin/webscr"  
         method="post">  
   
     <!-- Identify your business so that you can collect the payments. -->  
@@ -55,7 +55,7 @@
         src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >  
 </form> 
 
-              <li><a href="#">Shopping Bag</a></li>
+              <li><a href="javascript:viewcart()">Shopping Bag</a></li>
               <li><a href="/jewelry/about/">About</a></li>
             </ul>
           </div><!--/.nav-collapse -->
