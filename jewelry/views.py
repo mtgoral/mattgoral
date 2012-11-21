@@ -6,11 +6,11 @@ from django.http import Http404
     
 def all(request):
     jewelry_list = Jewelry.objects.all().order_by('id')
-    return render_to_response('jewelry/index.html', {'jewelry_list': jewelry_list})
+    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
     
 def earrings(request):
     jewelry_list = Jewelry.objects.filter(category="E")
-    return render_to_response('jewelry/index.html', {'jewelry_list': jewelry_list})
+    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
     
 def detail(request, item_id):
     try:

@@ -31,3 +31,5 @@
 {"ts":1353517632854,"patch":[[{"diffs":[[0,"filter(c"],[1,"ategory"],[0,"=\"What\")"]],"start1":422,"start2":422,"length1":16,"length2":23}]],"length":739,"saved":false}
 {"ts":1353517635895,"patch":[[{"diffs":[[0,"ry=\""],[-1,"What"],[0,"\")\n "]],"start1":435,"start2":435,"length1":12,"length2":8}]],"length":735,"saved":false}
 {"ts":1353517636873,"patch":[[{"diffs":[[0,"tegory=\""],[1,"E"],[0,"\")\n    r"]],"start1":431,"start2":431,"length1":16,"length2":17}]],"length":736,"saved":false}
+{"ts":1353517731425,"patch":[[{"diffs":[[0,"sponse('jewelry/"],[-1,"index"],[1,"gallery"],[0,".html', {'jewelr"]],"start1":298,"start2":298,"length1":37,"length2":39}]],"length":738,"saved":false}
+{"ts":1353517735367,"patch":[[{"diffs":[[0,"lry/"],[-1,"index"],[1,"gallery"],[0,".htm"]],"start1":480,"start2":480,"length1":13,"length2":15}]],"length":740,"saved":false}
