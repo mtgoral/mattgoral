@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-      <div id="count"></div>
+     
       
 </div>
       
@@ -33,7 +33,6 @@
     {% for item in jewelry_list %}
 
     $('.jj{{ forloop.counter }}').append('<a href="/jewelry/{{ item.id }}/"><img class="jimg" src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}"></a>');
-$('#count').append({{ forloop.counter }});
         
     {% endfor %}
     
