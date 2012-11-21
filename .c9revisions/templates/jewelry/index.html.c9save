@@ -65,3 +65,4 @@
 {"ts":1353507880208,"patch":[[{"diffs":[[0,"{item.id"],[1,"}}"],[0,"')\r\n\r\n  "]],"start1":906,"start2":906,"length1":16,"length2":18}]],"length":1243,"saved":false}
 {"ts":1353507883728,"patch":[[{"diffs":[[0,"ush("],[-1,"["],[0,"'{{i"]],"start1":899,"start2":899,"length1":9,"length2":8}]],"length":1242,"saved":false}
 {"ts":1353507886808,"patch":[[{"diffs":[[0,"m.id}}')"],[1,";"],[0,"\r\n\r\n    "]],"start1":909,"start2":909,"length1":16,"length2":17}]],"length":1243,"saved":false}
+{"ts":1353507978024,"patch":[[{"diffs":[[0,"\r\n\r\n"],[-1,"{% load jewelry_extras %}\r\n"],[0,"<div"]],"start1":64,"start2":64,"length1":35,"length2":8}]],"length":1216,"saved":false}
