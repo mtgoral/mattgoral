@@ -20,4 +20,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 
     url(r'^jewelry/$', 'jewelry.views.index'),
+    url(r'^jewelry/(?P<item_id>\d+)/$', 'jewelry.views.detail'),
 )

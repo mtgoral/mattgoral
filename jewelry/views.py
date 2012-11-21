@@ -9,3 +9,6 @@ def index(request):
         'jewelry_list': jewelry_list,
     })
     return HttpResponse(t.render(c))
+    
+def detail(request, item_id):
+    return HttpResponse("Info for item " % item_id)
