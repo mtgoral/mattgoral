@@ -1,5 +1,13 @@
-{{ item }}<br>
-{{ item.id }}<br>
+{% extends "jewelry/jewelry_base.html" %}
+
+{% block content %}
+
 {{ item.title }}<br>
 {{ item.description }}<br>
+{{ item.category }}<br>
+{{ item.price }}<br>
+{{ item.paypal_id }}<br>
+<img src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}" onmouseover="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}'" onmouseout="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}'">
 {{ item.image1 }}
+
+{% endblock %}
