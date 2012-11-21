@@ -32,7 +32,7 @@
     var list = new Array();
     {% for item in jewelry_list %}
     
-    list.push('{{item.id}}');
+    list.push({{item.id}});
 
     $('.jj{{ forloop.counter0 }}').append('<a href="/jewelry/{{ item.id }}/"><img class="jimg" src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}"></a>');
         
