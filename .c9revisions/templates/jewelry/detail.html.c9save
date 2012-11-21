@@ -1,2 +1,3 @@
 {"ts":1353461942310,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1353461973922,"patch":[[{"diffs":[[1,"{{ item }}"]],"start1":0,"start2":0,"length1":0,"length2":10}]],"length":10,"saved":false}
+{"ts":1353462187863,"patch":[[{"diffs":[[0," item }}"],[1,"<br>\n{{ item.id }}<br>\n{{ item.title }}<br>\n{{ item.description }}<br>\n{{ item.image1 }}"]],"start1":2,"start2":2,"length1":8,"length2":96}]],"length":98,"saved":false}
