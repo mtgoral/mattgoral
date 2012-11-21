@@ -28,13 +28,14 @@
       
 {% if jewelry_list %}
     <script type="text/javascript">
+    var list = {{jewelry_list|jsonify}};
     
     {% for item in jewelry_list %}
-
+<!--
     $('.jj{{ forloop.counter }}').append('<a href="/jewelry/{{ item.id }}/"><img class="jimg" src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}"></a>');
         
     {% endfor %}
-    
+   --> 
     $("#all").addClass("active");
 
     </script>
