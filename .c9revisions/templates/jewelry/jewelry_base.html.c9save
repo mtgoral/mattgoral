@@ -52,3 +52,4 @@
 {"ts":1353517902718,"patch":[[{"diffs":[[0,"ecklaces"],[1,"/"],[0,"\">Neckla"]],"start1":1787,"start2":1787,"length1":16,"length2":17}]],"length":2239,"saved":false}
 {"ts":1353518611700,"patch":[[{"diffs":[[0,"a href=\""],[-1,"#"],[1,"/about"],[0,"\">About<"]],"start1":1950,"start2":1950,"length1":17,"length2":22}]],"length":2244,"saved":false}
 {"ts":1353518612565,"patch":[[{"diffs":[[0,"=\"/about"],[1,"/"],[0,"\">About<"]],"start1":1956,"start2":1956,"length1":16,"length2":17}]],"length":2245,"saved":false}
+{"ts":1353518646613,"patch":[[{"diffs":[[0," href=\"/"],[1,"jewelry/"],[0,"about/\">"]],"start1":1951,"start2":1951,"length1":16,"length2":24}]],"length":2253,"saved":false}
