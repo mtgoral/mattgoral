@@ -24,6 +24,9 @@ def necklaces(request):
     jewelry_list = Jewelry.objects.filter(category="N")
     return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
     
+def about(request):
+    return render_to_response('jewelry/about.html')
+    
 def detail(request, item_id):
     try:
         p = Jewelry.objects.get(pk=item_id)

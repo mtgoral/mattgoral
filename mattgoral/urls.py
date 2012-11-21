@@ -25,4 +25,5 @@ urlpatterns = patterns('',
     url(r'^jewelry/bracelets/$', 'jewelry.views.bracelets'),
     url(r'^jewelry/rings/$', 'jewelry.views.rings'),
     url(r'^jewelry/necklaces/$', 'jewelry.views.necklaces'),
+    url(r'^jewelry/about/$', 'jewelry.views.about'),
 )
