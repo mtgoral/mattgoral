@@ -60,5 +60,18 @@
 
    <script src="http://code.jquery.com/jquery-latest.js"></script>
    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap.min.js"></script>
+   <script type="text/javascript">
+   $(function() {
+    $(".jimg")
+        .mouseover(function() { 
+            var src = $(this).attr("src").match(/[^\.]+/) + "a.jpg";
+            $(this).attr("src", src);
+        })
+        .mouseout(function() {
+            var src = $(this).attr("src").replace("a.jpg", ".jpg");
+            $(this).attr("src", src);
+        });
+});
+   </script>
 
 </body></html>

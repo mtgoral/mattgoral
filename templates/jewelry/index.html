@@ -12,7 +12,7 @@
     
     {% for item in jewelry_list %}
 
-    $('.row').append('<div class="span4"><img src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}" onmouseover="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image2 }}'" onmouseout="this.src='https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}'"></div>');
+    $('.row').append('<div class="span4"><img class="jimg" src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}"></div>');
 
         
     {% endfor %}
