@@ -36,3 +36,17 @@
 {"ts":1353517800921,"patch":[[{"diffs":[[0,"/jewelry"],[1,"/earro"],[0,"\">Earrin"]],"start1":1542,"start2":1542,"length1":16,"length2":22}]],"length":2185,"saved":false}
 {"ts":1353517803057,"patch":[[{"diffs":[[0,"lry/earr"],[-1,"o"],[1,"ings"],[0,"\">Earrin"]],"start1":1547,"start2":1547,"length1":17,"length2":20}]],"length":2188,"saved":false}
 {"ts":1353517804335,"patch":[[{"diffs":[[0,"earrings"],[1,"/"],[0,"\">Earrin"]],"start1":1551,"start2":1551,"length1":16,"length2":17}]],"length":2189,"saved":false}
+{"ts":1353517879836,"patch":[[{"diffs":[[0,"a href=\""],[-1,"#"],[1,"/jewelry"],[0,"\">Bracel"]],"start1":1615,"start2":1615,"length1":17,"length2":24}]],"length":2196,"saved":false}
+{"ts":1353517882573,"patch":[[{"diffs":[[0,"/jewelry"],[1,"/bracelets/"],[0,"\">Bracel"]],"start1":1623,"start2":1623,"length1":16,"length2":27}]],"length":2207,"saved":false}
+{"ts":1353517886570,"patch":[[{"diffs":[[0,"a href=\""],[-1,"#"],[0,"\">Rings<"]],"start1":1694,"start2":1694,"length1":17,"length2":16}]],"length":2206,"saved":false}
+{"ts":1353517887523,"patch":[[{"diffs":[[0,"a href=\""],[1,"/j"],[0,"\">Rings<"]],"start1":1694,"start2":1694,"length1":16,"length2":18}]],"length":2208,"saved":false}
+{"ts":1353517889370,"patch":[[{"diffs":[[0,"href=\"/j"],[1,"ewelry"],[0,"\">Rings<"]],"start1":1696,"start2":1696,"length1":16,"length2":22}]],"length":2214,"saved":false}
+{"ts":1353517890986,"patch":[[{"diffs":[[0,"/jewelry"],[1,"/rings"],[0,"\">Rings<"]],"start1":1702,"start2":1702,"length1":16,"length2":22}]],"length":2220,"saved":false}
+{"ts":1353517893334,"patch":[[{"diffs":[[0,"ry/rings"],[1,"/"],[0,"\">Rings<"]],"start1":1708,"start2":1708,"length1":16,"length2":17}]],"length":2221,"saved":false}
+{"ts":1353517897578,"patch":[[{"diffs":[[0,"a href=\""],[-1,"#"],[1,"/jewelry"],[0,"\">Neckla"]],"start1":1769,"start2":1769,"length1":17,"length2":24}]],"length":2228,"saved":false}
+{"ts":1353517898403,"patch":[[{"diffs":[[0,"/jewelry"],[1,"/n"],[0,"\">Neckla"]],"start1":1777,"start2":1777,"length1":16,"length2":18}]],"length":2230,"saved":false}
+{"ts":1353517899214,"patch":[[{"diffs":[[0,"ewelry/n"],[1,"eck"],[0,"\">Neckla"]],"start1":1779,"start2":1779,"length1":16,"length2":19}]],"length":2233,"saved":false}
+{"ts":1353517899949,"patch":[[{"diffs":[[0,"lry/neck"],[1,"la"],[0,"\">Neckla"]],"start1":1782,"start2":1782,"length1":16,"length2":18}]],"length":2235,"saved":false}
+{"ts":1353517900900,"patch":[[{"diffs":[[0,"y/neckla"],[1,"ce"],[0,"\">Neckla"]],"start1":1784,"start2":1784,"length1":16,"length2":18}]],"length":2237,"saved":false}
+{"ts":1353517901742,"patch":[[{"diffs":[[0,"necklace"],[1,"s"],[0,"\">Neckla"]],"start1":1786,"start2":1786,"length1":16,"length2":17}]],"length":2238,"saved":false}
+{"ts":1353517902718,"patch":[[{"diffs":[[0,"ecklaces"],[1,"/"],[0,"\">Neckla"]],"start1":1787,"start2":1787,"length1":16,"length2":17}]],"length":2239,"saved":false}

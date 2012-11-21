@@ -12,6 +12,18 @@ def earrings(request):
     jewelry_list = Jewelry.objects.filter(category="E")
     return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
     
+def bracelets(request):
+    jewelry_list = Jewelry.objects.filter(category="B")
+    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
+    
+def rings(request):
+    jewelry_list = Jewelry.objects.filter(category="R")
+    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
+    
+def necklaces(request):
+    jewelry_list = Jewelry.objects.filter(category="N")
+    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
+    
 def detail(request, item_id):
     try:
         p = Jewelry.objects.get(pk=item_id)

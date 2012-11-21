@@ -33,3 +33,23 @@
 {"ts":1353517636873,"patch":[[{"diffs":[[0,"tegory=\""],[1,"E"],[0,"\")\n    r"]],"start1":431,"start2":431,"length1":16,"length2":17}]],"length":736,"saved":false}
 {"ts":1353517731425,"patch":[[{"diffs":[[0,"sponse('jewelry/"],[-1,"index"],[1,"gallery"],[0,".html', {'jewelr"]],"start1":298,"start2":298,"length1":37,"length2":39}]],"length":738,"saved":false}
 {"ts":1353517735367,"patch":[[{"diffs":[[0,"lry/"],[-1,"index"],[1,"gallery"],[0,".htm"]],"start1":480,"start2":480,"length1":13,"length2":15}]],"length":740,"saved":false}
+{"ts":1353518322765,"patch":[[{"diffs":[[0,"list})\n    \n"],[1,"    \n"],[0,"def detail(r"]],"start1":524,"start2":524,"length1":24,"length2":29}]],"length":745,"saved":false}
+{"ts":1353518324075,"patch":[[{"diffs":[[0,"})\n    \n"],[1,"    def earrings(request):\n    jewelry_list = Jewelry.objects.filter(category=\"E\")\n    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})\n"],[0,"    \ndef"]],"start1":528,"start2":528,"length1":16,"length2":185}]],"length":914,"saved":false}
+{"ts":1353518327656,"patch":[[{"diffs":[[0,"})\n    \n"],[-1,"    "],[0,"def earr"]],"start1":528,"start2":528,"length1":20,"length2":16}]],"length":910,"saved":false}
+{"ts":1353518337382,"patch":[[{"diffs":[[0,"})\n    \ndef "],[-1,"earrings"],[1,"b"],[0,"(request):\n "]],"start1":528,"start2":528,"length1":32,"length2":25}]],"length":903,"saved":false}
+{"ts":1353518339778,"patch":[[{"diffs":[[0,"  \ndef b"],[1,"racelets"],[0,"(request"]],"start1":533,"start2":533,"length1":16,"length2":24}]],"length":911,"saved":false}
+{"ts":1353518343640,"patch":[[{"diffs":[[0,"ilter(category=\""],[-1,"E"],[1,"B"],[0,"\")\n    return re"]],"start1":596,"start2":596,"length1":33,"length2":33}]],"length":911,"saved":false}
+{"ts":1353518346534,"patch":[[{"diffs":[[0,"list})\n    \n"],[1,"    \n"],[0,"def detail(r"]],"start1":695,"start2":695,"length1":24,"length2":29}]],"length":916,"saved":false}
+{"ts":1353518347592,"patch":[[{"diffs":[[0,"})\n    \n"],[1,"    def earrings(request):\n    jewelry_list = Jewelry.objects.filter(category=\"E\")\n    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})\n"],[0,"    \ndef"]],"start1":699,"start2":699,"length1":16,"length2":185}]],"length":1085,"saved":false}
+{"ts":1353518351492,"patch":[[{"diffs":[[0,"})\n    \n"],[-1,"    "],[0,"def earr"]],"start1":699,"start2":699,"length1":20,"length2":16}]],"length":1081,"saved":false}
+{"ts":1353518357469,"patch":[[{"diffs":[[0,"list})\n    \ndef "],[-1,"earring"],[1,"ri"],[0,"s(request):\n    "]],"start1":695,"start2":695,"length1":39,"length2":34}]],"length":1076,"saved":false}
+{"ts":1353518358477,"patch":[[{"diffs":[[0," \ndef ri"],[1,"ngs"],[0,"s(reques"]],"start1":705,"start2":705,"length1":16,"length2":19}]],"length":1079,"saved":false}
+{"ts":1353518359929,"patch":[[{"diffs":[[0,"ef rings"],[-1,"s"],[0,"(request"]],"start1":708,"start2":708,"length1":17,"length2":16}]],"length":1078,"saved":false}
+{"ts":1353518363333,"patch":[[{"diffs":[[0,"ilter(category=\""],[-1,"E"],[1,"R"],[0,"\")\n    return re"]],"start1":763,"start2":763,"length1":33,"length2":33}]],"length":1078,"saved":false}
+{"ts":1353518366023,"patch":[[{"diffs":[[0,"list})\n    \n"],[1,"    \n"],[0,"def detail(r"]],"start1":862,"start2":862,"length1":24,"length2":29}]],"length":1083,"saved":false}
+{"ts":1353518366952,"patch":[[{"diffs":[[0,")\n    \n    \n"],[1,"    \n"],[0,"def detail(r"]],"start1":867,"start2":867,"length1":24,"length2":29}]],"length":1088,"saved":false}
+{"ts":1353518368375,"patch":[[{"diffs":[[0,"})\n    \n"],[-1,"    "],[1,"def earrings(request):\n    jewelry_list = Jewelry.objects.filter(category=\"E\")\n    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})"],[0,"\n    \nde"]],"start1":866,"start2":866,"length1":20,"length2":180}]],"length":1248,"saved":false}
+{"ts":1353518376003,"patch":[[{"diffs":[[0,"})\n    \ndef "],[-1,"earrings"],[0,"(request):\n "]],"start1":866,"start2":866,"length1":32,"length2":24}]],"length":1240,"saved":false}
+{"ts":1353518377327,"patch":[[{"diffs":[[0,"   \ndef "],[1,"neck"],[0,"(request"]],"start1":870,"start2":870,"length1":16,"length2":20}]],"length":1244,"saved":false}
+{"ts":1353518378824,"patch":[[{"diffs":[[0,"def neck"],[1,"laces"],[0,"(request"]],"start1":874,"start2":874,"length1":16,"length2":21}]],"length":1249,"saved":false}
+{"ts":1353518382026,"patch":[[{"diffs":[[0,"ilter(category=\""],[-1,"E"],[1,"N"],[0,"\")\n    return re"]],"start1":934,"start2":934,"length1":33,"length2":33}]],"length":1249,"saved":false}
