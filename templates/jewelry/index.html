@@ -3,7 +3,25 @@
 {% block content %}
 <div class="container main-gallery">
 
-      <div class="row"></div>
+      
+      <div class="row">
+        <div class="span4 jj1"></div>
+
+        <div class="span8" style="margin-top:0">
+          <div class="row">
+            <div class="span2 jj2"></div>
+            <div class="span2 jj3"></div>
+            <div class="span2 jj4"></div>
+            <div class="span2 jj5"></div>
+          </div>
+          <div class="row">
+            <div class="span2 jj6"></div>
+            <div class="span2 jj7"></div>
+            <div class="span2 jj8"></div>
+            <div class="span2 jj9"></div>
+          </div>
+        </div>
+      </div>
       
 </div>
       
@@ -12,7 +30,7 @@
     
     {% for item in jewelry_list %}
 
-    $('.row').append('<div class="span4"><img class="jimg" src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}"></div>');
+    $('.jj{{ forloop.counter }}').append('<img class="jimg" src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}">');
 
         
     {% endfor %}
