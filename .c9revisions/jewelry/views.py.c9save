@@ -4,3 +4,4 @@
 {"ts":1353462040134,"patch":[[{"diffs":[[0,"Response"],[1,"\nfrom django.shortcuts import render_to_response"],[0,"\n\ndef in"]],"start1":107,"start2":107,"length1":16,"length2":64}]],"length":604,"saved":false}
 {"ts":1353462364798,"patch":[[{"diffs":[[0,"response"],[1,"\nfrom django.http import Http404"],[0,"\n\ndef in"]],"start1":155,"start2":155,"length1":16,"length2":48}]],"length":636,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1353473195247,"patch":[[{"diffs":[[0,"')[:"],[-1,"5"],[1,"9"],[0,"]\n  "]],"start1":270,"start2":270,"length1":9,"length2":9}]],"length":636,"saved":false}
+{"ts":1353473331916,"patch":[[{"diffs":[[0,"d')["],[-1,":9"],[0,"]\n  "]],"start1":269,"start2":269,"length1":10,"length2":8}]],"length":634,"saved":false}
