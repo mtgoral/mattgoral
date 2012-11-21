@@ -6,7 +6,7 @@ from django.http import Http404
     
 def index(request):
     jewelry_list = Jewelry.objects.all().order_by('id')
-    return render_to_response('jewelry/index.html', {'jewelry_list': jewelry_list})
+    return render_to_response('jewelry/index.html', {'jewelry_list': [jewelry_list, "all"]})
     
 def detail(request, item_id):
     try:

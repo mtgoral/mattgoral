@@ -10,3 +10,10 @@
 {"ts":1353473934197,"patch":[[{"diffs":[[0,"Http404\n"],[1,"    "],[0,"\n"],[-1,""],[0,"def inde"]],"start1":188,"start2":188,"length1":17,"length2":21},{"diffs":[[0,"id')"],[-1,"[:9]"],[0,"\n    "],[-1,"t = loader.get_template('jewelry/index.html')\n    c = Context({\n        'jewelry_list': jewelry_list,\n    })\n    return HttpResponse(t.render(c)"],[1,"return render_to_response('jewelry/index.html', {'jewelry_list': jewelry_list}"],[0,")\n  "]],"start1":272,"start2":272,"length1":161,"length2":91}]],"length":570,"saved":false}
 {"ts":1353474118321,"patch":[[{"diffs":[[0,"ry_list}"],[1,", {'page': 'all'}"],[0,")\n    \nd"]],"start1":351,"start2":351,"length1":16,"length2":33}]],"length":587,"saved":false}
 {"ts":1353474661272,"patch":[[{"diffs":[[0,"ist}"],[-1,", {'page': 'all'}"],[0,")\n  "]],"start1":355,"start2":355,"length1":25,"length2":8}]],"length":570,"saved":false}
+{"ts":1353516952342,"patch":[[{"diffs":[[0,"_list': "],[1,"["],[0,"jewelry_"]],"start1":338,"start2":338,"length1":16,"length2":17}]],"length":571,"saved":false}
+{"ts":1353516955016,"patch":[[{"diffs":[[0,"lry_list"],[1,", "],[0,"})\n    \n"]],"start1":351,"start2":351,"length1":16,"length2":18}]],"length":573,"saved":false}
+{"ts":1353516956322,"patch":[[{"diffs":[[0,"y_list, "],[1,"\""],[0,"})\n    \n"]],"start1":353,"start2":353,"length1":16,"length2":17}]],"length":574,"saved":false}
+{"ts":1353516958802,"patch":[[{"diffs":[[0,"_list, \""],[1,"a"],[0,"})\n    \n"]],"start1":354,"start2":354,"length1":16,"length2":17}]],"length":575,"saved":false}
+{"ts":1353516960262,"patch":[[{"diffs":[[0,"list, \"a"],[1,"ll"],[0,"})\n    \n"]],"start1":355,"start2":355,"length1":16,"length2":18}]],"length":577,"saved":false}
+{"ts":1353516961522,"patch":[[{"diffs":[[0,"st, \"all"],[1,"\""],[0,"})\n    \n"]],"start1":357,"start2":357,"length1":16,"length2":17}]],"length":578,"saved":false}
+{"ts":1353516962731,"patch":[[{"diffs":[[0,"t, \"all\""],[1,"]"],[0,"})\n    \n"]],"start1":358,"start2":358,"length1":16,"length2":17}]],"length":579,"saved":false}
