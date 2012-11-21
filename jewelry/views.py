@@ -3,14 +3,10 @@ from jewelry.models import Jewelry
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.http import Http404
-
+    
 def index(request):
-    jewelry_list = Jewelry.objects.all().order_by('id')[:9]
-    t = loader.get_template('jewelry/index.html')
-    c = Context({
-        'jewelry_list': jewelry_list,
-    })
-    return HttpResponse(t.render(c))
+    jewelry_list = Jewelry.objects.all().order_by('id')
+    return render_to_response('jewelry/index.html', {'jewelry_list': jewelry_list})
     
 def detail(request, item_id):
     try:
