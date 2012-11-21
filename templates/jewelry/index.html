@@ -7,20 +7,20 @@
 
       
       <div class="row">
-        <div class="span4 jj1"></div>
+        <div class="span4 jj0"></div>
 
         <div class="span8" style="margin-top:0">
           <div class="row">
+            <div class="span2 jj1"></div>
             <div class="span2 jj2"></div>
             <div class="span2 jj3"></div>
             <div class="span2 jj4"></div>
-            <div class="span2 jj5"></div>
           </div>
           <div class="row">
+            <div class="span2 jj5"></div>
             <div class="span2 jj6"></div>
             <div class="span2 jj7"></div>
             <div class="span2 jj8"></div>
-            <div class="span2 jj9"></div>
           </div>
         </div>
       </div>
@@ -30,14 +30,15 @@
       
 {% if jewelry_list %}
     <script type="text/javascript">
-    var list = {{jewelry_list|jsonify}};
-    
+    var list = new Array();
     {% for item in jewelry_list %}
-<!--
-    $('.jj{{ forloop.counter }}').append('<a href="/jewelry/{{ item.id }}/"><img class="jimg" src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}"></a>');
+    
+    list.push('{{item.id}}');
+
+    $('.jj{{ forloop.counter0 }}').append('<a href="/jewelry/{{ item.id }}/"><img class="jimg" src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}"></a>');
         
     {% endfor %}
-   --> 
+
     $("#all").addClass("active");
 
     </script>
