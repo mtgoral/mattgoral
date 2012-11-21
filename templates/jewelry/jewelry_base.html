@@ -35,24 +35,6 @@
               <li id="necklaces"><a href="/jewelry/necklaces/">Necklaces</a></li>
             </ul>
             <ul class="nav pull-right">
-            
-            
-            <form name="cartlink" target="paypal" action="https://www.paypal.com/cgi-bin/webscr"  
-        method="post">  
-  
-    <!-- Identify your business so that you can collect the payments. -->  
-    <input type="hidden" name="business" value="mtgoral@mit.edu">  
-  
-    <!-- Specify a PayPal Shopping Cart View Cart button. -->  
-    <input type="hidden" name="cmd" value="_cart">  
-    <input type="hidden" name="display" value="1">  
-  
-    <!-- Display the View Cart button. -->  
-    <input type="image" name="submit" border="0"  
-        src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif"   
-        alt="PayPal - The safer, easier way to pay online">  
-</form> 
-
               <li><a href="javascript:viewcart()">Shopping Bag</a></li>
               <li><a href="/jewelry/about/">About</a></li>
             </ul>
@@ -63,6 +45,14 @@
 
     {% block content %}{% endblock %}
 
+            <form style="display:none" name="cartlink" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">  
+                <input type="hidden" name="business" value="mtgoral@mit.edu">  
+                <input type="hidden" name="cmd" value="_cart">  
+                <input type="hidden" name="display" value="1">  
+                <input type="image" name="submit" border="0"  
+                    src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif"   
+                    alt="PayPal - The safer, easier way to pay online">  
+            </form> 
     <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap.min.js"></script>
     
     </body>
