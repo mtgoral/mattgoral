@@ -3,29 +3,6 @@
 {% block content %}
 
 <div class="container main-gallery">
-
-      
-      <div class="row">
-        <div class="span4 jj0"></div>
-
-        <div class="span8" style="margin-top:0">
-          <div class="row">
-            <div class="span2 jj1"></div>
-            <div class="span2 jj2"></div>
-            <div class="span2 jj3"></div>
-            <div class="span2 jj4"></div>
-          </div>
-          <div class="row">
-            <div class="span2 jj5"></div>
-            <div class="span2 jj6"></div>
-            <div class="span2 jj7"></div>
-            <div class="span2 jj8"></div>
-          </div>
-        </div>
-      </div>
-     
-      
-</div>
       
 {% if jewelry_list %}
     <script type="text/javascript">
@@ -35,10 +12,11 @@
     {% endfor %}
     render(list);
     $("#all").addClass("active");
-
     </script>
 {% else %}
     <p>Nothing here.</p>
 {% endif %}
+
+</div>
 
 {% endblock %}
