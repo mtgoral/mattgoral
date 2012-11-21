@@ -10,9 +10,10 @@
     </div>
     
     
-  <div class="span2" style="margin-top:300px;">
-  {{ item.description }}<br>
-{{ item.price }}<br>
+  <div class="span2">
+  <p style="font-size:20px;line-height:40px;color:#999">${{ item.price }}</p>
+  <p>{{ item.description }}<p><br><br>
+
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
