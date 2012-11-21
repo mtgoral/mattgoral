@@ -68,3 +68,10 @@
 {"ts":1353507978024,"patch":[[{"diffs":[[0,"\r\n\r\n"],[-1,"{% load jewelry_extras %}\r\n"],[0,"<div"]],"start1":64,"start2":64,"length1":35,"length2":8}]],"length":1216,"saved":false}
 {"ts":1353508035295,"patch":[[{"diffs":[[0,"st.push("],[-1,"'"],[0,"{{item.i"]],"start1":868,"start2":868,"length1":17,"length2":16}]],"length":1215,"saved":false}
 {"ts":1353508037731,"patch":[[{"diffs":[[0,"tem.id}}"],[-1,"'"],[0,");\r\n\r\n  "]],"start1":879,"start2":879,"length1":17,"length2":16}]],"length":1214,"saved":false}
+{"ts":1353508101411,"patch":[[{"diffs":[[0,"st.push("],[1,"["],[0,"{{item.i"]],"start1":868,"start2":868,"length1":16,"length2":17}]],"length":1215,"saved":false}
+{"ts":1353508104203,"patch":[[{"diffs":[[0,"tem.id}}"],[1,","],[0,");\r\n\r\n  "]],"start1":880,"start2":880,"length1":16,"length2":17}]],"length":1216,"saved":false}
+{"ts":1353508107926,"patch":[[{"diffs":[[0,"em.id}},"],[1,"{{item}}"],[0,");\r\n\r\n  "]],"start1":881,"start2":881,"length1":16,"length2":24}]],"length":1224,"saved":false}
+{"ts":1353508110042,"patch":[[{"diffs":[[0,"},{{item"],[1,".image"],[0,"}});\r\n\r\n"]],"start1":887,"start2":887,"length1":16,"length2":22}]],"length":1230,"saved":false}
+{"ts":1353508111075,"patch":[[{"diffs":[[0,"em.image"],[1,"1"],[0,"}});\r\n\r\n"]],"start1":893,"start2":893,"length1":16,"length2":17}]],"length":1231,"saved":false}
+{"ts":1353508116048,"patch":[[{"diffs":[[0,"image1}}"],[1,"}"],[0,");\r\n\r\n  "]],"start1":896,"start2":896,"length1":16,"length2":17}]],"length":1232,"saved":false}
+{"ts":1353508117807,"patch":[[{"diffs":[[0,"image1}}"],[-1,"}"],[1,"]"],[0,");\r\n\r\n  "]],"start1":896,"start2":896,"length1":17,"length2":17}]],"length":1232,"saved":false}
