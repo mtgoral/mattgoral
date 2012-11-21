@@ -7,3 +7,6 @@
 {"ts":1353460835878,"patch":[[{"diffs":[[0,"lry/(?P<"],[-1,"jewelry"],[1,"item"],[0,"_id>\\d+)"]],"start1":810,"start2":810,"length1":23,"length2":20}]],"length":862,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1353473646344,"patch":[[{"diffs":[[0,"tail'),\n"],[1,"    url(r'^jewelry/earrings$', 'jewelry.views.earrings'),\n"],[0,")\n"]],"start1":852,"start2":852,"length1":10,"length2":68}]],"length":920,"saved":false}
 {"ts":1353473957964,"patch":[[{"diffs":[[0,"s.detail'),\n    "],[1,"#"],[0,"url(r'^jewelry/e"]],"start1":848,"start2":848,"length1":32,"length2":33},{"diffs":[[0,"earrings"],[1,"/"],[0,"$', 'jew"]],"start1":880,"start2":880,"length1":16,"length2":17}]],"length":922,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1353517447162,"patch":[[{"diffs":[[0,"ews."],[-1,"index"],[0,"'),\n"]],"start1":782,"start2":782,"length1":13,"length2":8}]],"length":917,"saved":false}
+{"ts":1353517448631,"patch":[[{"diffs":[[0,"y.views."],[1,"all"],[0,"'),\n    "]],"start1":778,"start2":778,"length1":16,"length2":19}]],"length":920,"saved":false}
+{"ts":1353517571662,"patch":[[{"diffs":[[0,"'),\n    "],[-1,"#"],[0,"url(r'^j"]],"start1":854,"start2":854,"length1":17,"length2":16}]],"length":919,"saved":false}

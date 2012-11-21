@@ -4,8 +4,12 @@ from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.http import Http404
     
-def index(request):
+def all(request):
     jewelry_list = Jewelry.objects.all().order_by('id')
+    return render_to_response('jewelry/index.html', {'jewelry_list': jewelry_list})
+    
+def earrings(request):
+    jewelry_list = Jewelry.objects.filter(category="E")
     return render_to_response('jewelry/index.html', {'jewelry_list': jewelry_list})
     
 def detail(request, item_id):
