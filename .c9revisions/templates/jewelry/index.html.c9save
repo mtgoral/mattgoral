@@ -79,3 +79,10 @@
 {"ts":1353508171627,"patch":[[{"diffs":[[0,"em.id}},"],[1,"'"],[0,"{{item.i"]],"start1":881,"start2":881,"length1":16,"length2":17}]],"length":1235,"saved":false}
 {"ts":1353508178535,"patch":[[{"diffs":[[0,"age1}}''"],[1,"\\"],[0,"]);\r\n\r\n "]],"start1":899,"start2":899,"length1":16,"length2":17}]],"length":1236,"saved":false}
 {"ts":1353508179715,"patch":[[{"diffs":[[0,"1}}'"],[-1,"'\\"],[0,"]);\r"]],"start1":902,"start2":902,"length1":10,"length2":8}]],"length":1234,"saved":false}
+{"ts":1353515370347,"patch":[[{"diffs":[[0,"]);\r"],[-1,"\n\r\n    $('.jj{{ forloop.counter0 }}').append('<a href=\"/jewelry/{{ item.id }}/\"><img class=\"jimg\" src=\"https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}\"></a>');\r\n        \r"],[0,"\n   "]],"start1":906,"start2":906,"length1":192,"length2":8}]],"length":1050,"saved":false}
+{"ts":1353515372059,"patch":[[{"diffs":[[0,"ist %}\r\n"],[-1,"    \r\n"],[0,"    list"]],"start1":848,"start2":848,"length1":22,"length2":16}]],"length":1044,"saved":false}
+{"ts":1353515382835,"patch":[[{"diffs":[[0,"for %}\r\n"],[1,"    re"],[0,"\r\n    $("]],"start1":915,"start2":915,"length1":16,"length2":22}]],"length":1050,"saved":false}
+{"ts":1353515384481,"patch":[[{"diffs":[[0,"\r\n    re"],[1,"nd"],[0,"\r\n    $("]],"start1":921,"start2":921,"length1":16,"length2":18}]],"length":1052,"saved":false}
+{"ts":1353515385444,"patch":[[{"diffs":[[0,"    rend"],[1,"er"],[0,"\r\n    $("]],"start1":923,"start2":923,"length1":16,"length2":18}]],"length":1054,"saved":false}
+{"ts":1353515387928,"patch":[[{"diffs":[[0,"  render"],[1,"(list)"],[0,"\r\n    $("]],"start1":925,"start2":925,"length1":16,"length2":22}]],"length":1060,"saved":false}
+{"ts":1353515389794,"patch":[[{"diffs":[[0,"er(list)"],[1,";"],[0,"\r\n    $("]],"start1":931,"start2":931,"length1":16,"length2":17}]],"length":1061,"saved":false}

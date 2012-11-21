@@ -31,13 +31,9 @@
     <script type="text/javascript">
     var list = new Array();
     {% for item in jewelry_list %}
-    
     list.push([{{item.id}},'{{item.image1}}']);
-
-    $('.jj{{ forloop.counter0 }}').append('<a href="/jewelry/{{ item.id }}/"><img class="jimg" src="https://dl.dropbox.com/u/874495/ec2/jewelry/{{ item.image1 }}"></a>');
-        
     {% endfor %}
-
+    render(list);
     $("#all").addClass("active");
 
     </script>
