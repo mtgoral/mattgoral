@@ -5,6 +5,7 @@
 {% if jewelry_list %}
     <ul>
     {% for item in jewelry_list %}
+    {{ forloop.counter }}<br>
         <li><a href="/jewelry/{{ item.id }}/">{{ item.title }}</a></li>
     {% endfor %}
     </ul>

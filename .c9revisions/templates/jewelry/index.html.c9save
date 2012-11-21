@@ -5,3 +5,5 @@
 {"contributors":[],"silentsave":false,"ts":1353440924535,"patch":[[{"diffs":[[0,"xtends \""],[1,"jewelry_"],[0,"base.htm"]],"start1":4,"start2":4,"length1":16,"length2":24}]],"length":318,"saved":false}
 {"ts":1353441091692,"patch":[[{"diffs":[[0,"\"jewelry"],[1,"/jewelry"],[0,"_base.ht"]],"start1":11,"start2":11,"length1":16,"length2":24}]],"length":326,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1353462450472,"patch":[[{"diffs":[[0," %}\r"],[-1,"\n<h2>wooooooo!</h2>\r"],[0,"\n\r\n{"]],"start1":61,"start2":61,"length1":28,"length2":8}]],"length":306,"saved":false}
+{"ts":1353463389553,"patch":[[{"diffs":[[0,"ry_list %}\r\n"],[1,"    {{ item }}<br>\r\n"],[0,"        <li>"]],"start1":125,"start2":125,"length1":24,"length2":44}]],"length":326,"saved":false}
+{"ts":1353463465719,"patch":[[{"diffs":[[0,"\n    {{ "],[-1,"item"],[1,"forloop.counter"],[0," }}<br>\r"]],"start1":136,"start2":136,"length1":20,"length2":31}]],"length":337,"saved":false}
