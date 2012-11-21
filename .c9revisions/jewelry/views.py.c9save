@@ -17,3 +17,5 @@
 {"ts":1353516960262,"patch":[[{"diffs":[[0,"list, \"a"],[1,"ll"],[0,"})\n    \n"]],"start1":355,"start2":355,"length1":16,"length2":18}]],"length":577,"saved":false}
 {"ts":1353516961522,"patch":[[{"diffs":[[0,"st, \"all"],[1,"\""],[0,"})\n    \n"]],"start1":357,"start2":357,"length1":16,"length2":17}]],"length":578,"saved":false}
 {"ts":1353516962731,"patch":[[{"diffs":[[0,"t, \"all\""],[1,"]"],[0,"})\n    \n"]],"start1":358,"start2":358,"length1":16,"length2":17}]],"length":579,"saved":false}
+{"ts":1353517088395,"patch":[[{"diffs":[[0,"list"],[-1,", \"all\"]"],[0,"})\n "]],"start1":355,"start2":355,"length1":16,"length2":8}]],"length":571,"saved":false}
+{"ts":1353517091120,"patch":[[{"diffs":[[0,"t': "],[-1,"["],[0,"jewe"]],"start1":342,"start2":342,"length1":9,"length2":8}]],"length":570,"saved":false}
