@@ -12,3 +12,9 @@
 {"ts":1353874831128,"patch":[[{"diffs":[[0,"er(Bar)\n"],[1,"admin.site.register(Bar)\n"]],"start1":85,"start2":85,"length1":8,"length2":33}]],"length":118,"saved":false}
 {"ts":1353874834458,"patch":[[{"diffs":[[0,"ar)\nadmin.site.register("],[-1,"Bar"],[1,"D"],[0,")\n"]],"start1":89,"start2":89,"length1":29,"length2":27}]],"length":116,"saved":false}
 {"ts":1353874835596,"patch":[[{"diffs":[[0,"gister(D"],[1,"rink"],[0,")\n"]],"start1":106,"start2":106,"length1":10,"length2":14}]],"length":120,"saved":false}
+{"ts":1353887484084,"patch":[[{"diffs":[[0,"r, Drink"],[1,", Order, OrderItem"],[0,"\nfrom dj"]],"start1":25,"start2":25,"length1":16,"length2":34}]],"length":138,"saved":false}
+{"ts":1353887491246,"patch":[[{"diffs":[[0,"(Drink)\n"],[1,"admin.site.register(Drink)\nadmin.site.register(Drink)\n"]],"start1":130,"start2":130,"length1":8,"length2":62}]],"length":192,"saved":false}
+{"ts":1353887492990,"patch":[[{"diffs":[[0,"n.site.register("],[-1,"Drink"],[1,"Or"],[0,")\nadmin.site.reg"]],"start1":142,"start2":142,"length1":37,"length2":34}]],"length":189,"saved":false}
+{"ts":1353887494208,"patch":[[{"diffs":[[0,"ister(Or"],[1,"der"],[0,")\nadmin."]],"start1":152,"start2":152,"length1":16,"length2":19},{"diffs":[[0,"er)\nadmin.site.register(Drin"],[-1,"k"],[0,")\n"]],"start1":161,"start2":161,"length1":31,"length2":30}]],"length":191,"saved":false}
+{"ts":1353887495590,"patch":[[{"diffs":[[0,"egister("],[-1,"Drin"],[1,"O"],[0,")\n"]],"start1":177,"start2":177,"length1":14,"length2":11}]],"length":188,"saved":false}
+{"ts":1353887497611,"patch":[[{"diffs":[[0,"gister(O"],[1,"rderItem"],[0,")\n"]],"start1":178,"start2":178,"length1":10,"length2":18}]],"length":196,"saved":false}
