@@ -12,3 +12,7 @@ def menu(request, bar_id):
     menu_list = Drink.objects.filter(bar=bar_id)
     return render_to_response('bar/menu.html', {'menu_list': menu_list})
     
+def drink(request, drink_id):
+    drink = Drink.objects.filter(id=drink_id)
+    return render_to_response('bar/drink.html', {'drink': drink})
+    

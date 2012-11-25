@@ -12,13 +12,13 @@
 
 <div class="container main-gallery">
 
-{% if menu_list %}
+{% if drink %}
 
-    {% for drink in menu_list %}
+
     
-    <a href="/bar/drink{{drink.id}}/"><div class="row"><div class="span12 barname"><p>{{drink.name}}</p></div></div></a>
+    <a href="#"><div class="row"><div class="span12 barname"><p>{{drink.name}}</p></div></div></a>
     
-    {% endfor %}
+
 
 {% else %}
     <p>Nothing here.</p>

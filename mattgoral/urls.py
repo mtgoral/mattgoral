@@ -29,5 +29,5 @@ urlpatterns = patterns('',
     
     url(r'^bar/$', 'bar.views.home'),
     url(r'^bar/bar(?P<bar_id>\d+)/$', 'bar.views.menu'),
-    #url(r'^bar/(?P<bar_id>\d+)/(?P<drink_id>\d+)/$', 'bar.views.menu'),
+    url(r'^bar/drink(?P<drink_id>\d+)/$', 'bar.views.drink'),
 )
