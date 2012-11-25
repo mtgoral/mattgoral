@@ -26,4 +26,7 @@ urlpatterns = patterns('',
     url(r'^jewelry/rings/$', 'jewelry.views.rings'),
     url(r'^jewelry/necklaces/$', 'jewelry.views.necklaces'),
     url(r'^jewelry/about/$', 'jewelry.views.about'),
+    
+    url(r'^bar/$', 'bar.views.home'),
+    url(r'^jewelry/(?P<item_id>\d+)/$', 'bar.views.menu'),
 )

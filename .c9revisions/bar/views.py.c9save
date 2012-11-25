@@ -1,0 +1,21 @@
+{"ts":1353875404588,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"# Create your views here.\n"]],"start1":0,"start2":0,"length1":0,"length2":26}]],"length":26}
+{"contributors":[],"silentsave":true,"ts":1353875372277,"patch":[[{"diffs":[[-1,"# Create your views here.\n"],[1,"from django.template import Context, loader\r\nfrom jewelry.models import Jewelry\r\nfrom django.http import HttpResponse\r\nfrom django.shortcuts import render_to_response\r\nfrom django.http import Http404"]],"start1":0,"start2":0,"length1":26,"length2":199}]],"length":199,"saved":false}
+{"ts":1353875374220,"patch":[[{"diffs":[[0," Http404"],[1,"\r\n\r\n"]],"start1":191,"start2":191,"length1":8,"length2":12}]],"length":203,"saved":false}
+{"ts":1353875392156,"patch":[[{"diffs":[[0,"p404\r\n\r\n"],[1,"def all(request):\r\n    jewelry_list = Jewelry.objects.all().order_by('id')\r\n    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})"]],"start1":195,"start2":195,"length1":8,"length2":169}]],"length":364,"saved":false}
+{"ts":1353875398536,"patch":[[{"diffs":[[0,"_list = "],[-1,"Jewelry"],[0,".objects"]],"start1":233,"start2":233,"length1":23,"length2":16}]],"length":357,"saved":false}
+{"ts":1353875400252,"patch":[[{"diffs":[[0,"_list = "],[1,"Bar"],[0,".objects"]],"start1":233,"start2":233,"length1":16,"length2":19}]],"length":360,"saved":false}
+{"ts":1353875408409,"patch":[[{"diffs":[[0,"sponse('"],[-1,"jewelry"],[1,"b"],[0,"/gallery"]],"start1":298,"start2":298,"length1":23,"length2":17}]],"length":354,"saved":false}
+{"ts":1353875409559,"patch":[[{"diffs":[[0,"ponse('b"],[1,"ar"],[0,"/gallery"]],"start1":299,"start2":299,"length1":16,"length2":18}]],"length":356,"saved":false}
+{"ts":1353875413504,"patch":[[{"diffs":[[0,"bar/"],[-1,"gallery"],[1,"barlish"],[0,".htm"]],"start1":306,"start2":306,"length1":15,"length2":15}]],"length":356,"saved":false}
+{"ts":1353875414669,"patch":[[{"diffs":[[0,"r/barlis"],[-1,"h"],[1,"t"],[0,".html', "]],"start1":308,"start2":308,"length1":17,"length2":17}]],"length":356,"saved":false}
+{"ts":1353875419701,"patch":[[{"diffs":[[0,"):\r\n    "],[-1,"jewelry"],[0,"_list = "]],"start1":218,"start2":218,"length1":23,"length2":16}]],"length":349,"saved":false}
+{"ts":1353875420776,"patch":[[{"diffs":[[0,"):\r\n    "],[1,"bar"],[0,"_list = "]],"start1":218,"start2":218,"length1":16,"length2":19}]],"length":352,"saved":false}
+{"ts":1353875426535,"patch":[[{"diffs":[[0,"tml', {'"],[-1,"jewelry"],[1,"bars"],[0,"_list': "]],"start1":315,"start2":315,"length1":23,"length2":20}]],"length":349,"saved":false}
+{"ts":1353875429947,"patch":[[{"diffs":[[0,"_list': "],[-1,"jewelry"],[1,"bars"],[0,"_list})"]],"start1":327,"start2":327,"length1":22,"length2":19}]],"length":346,"saved":false}
+{"ts":1353875432751,"patch":[[{"diffs":[[0,"\n    bar"],[1,"s"],[0,"_list = "]],"start1":221,"start2":221,"length1":16,"length2":17}]],"length":347,"saved":false}
+{"ts":1353875786179,"patch":[[{"diffs":[[0,"ort "],[-1,"Jewelry"],[0,"\r\nfr"]],"start1":68,"start2":68,"length1":15,"length2":8}]],"length":340,"saved":false}
+{"ts":1353875787856,"patch":[[{"diffs":[[0," import "],[1,"Bar, D"],[0,"\r\nfrom d"]],"start1":64,"start2":64,"length1":16,"length2":22}]],"length":346,"saved":false}
+{"ts":1353875789056,"patch":[[{"diffs":[[0,"t Bar, D"],[1,"rom"],[0,"\r\nfrom d"]],"start1":70,"start2":70,"length1":16,"length2":19}]],"length":349,"saved":false}
+{"ts":1353875790056,"patch":[[{"diffs":[[0," Bar, Dr"],[-1,"om"],[0,"\r\nfrom d"]],"start1":71,"start2":71,"length1":18,"length2":16}]],"length":347,"saved":false}
+{"ts":1353875791519,"patch":[[{"diffs":[[0," Bar, Dr"],[1,"ink"],[0,"\r\nfrom d"]],"start1":71,"start2":71,"length1":16,"length2":19}]],"length":350,"saved":false}
+{"ts":1353875801457,"patch":[[{"diffs":[[0,"rom "],[-1,"jewelry"],[1,"bar"],[0,".mod"]],"start1":46,"start2":46,"length1":15,"length2":11}]],"length":346,"saved":false}

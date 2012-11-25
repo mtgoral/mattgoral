@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Bar App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="mattgoral">
+
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Bar App</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-left">
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li><a href="javascript:viewcart()">Cart</a></li>
+              <li><a href="/jewelry/about/">About</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    {% block content %}{% endblock %}
+
+            <form style="display:none" name="cartlink" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">  
+                <input type="hidden" name="business" value="mtgoral@mit.edu">  
+                <input type="hidden" name="cmd" value="_cart">  
+                <input type="hidden" name="display" value="1">  
+                <input type="image" name="submit" border="0"  
+                    src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif"   
+                    alt="PayPal - The safer, easier way to pay online">  
+            </form> 
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap.min.js"></script>
+    
+    </body>
+</html>
