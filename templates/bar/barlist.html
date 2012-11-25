@@ -1,9 +1,19 @@
 {% extends "bar/bar_base.html" %}
 
+{% block navtitle %}Location{% endblock %}
+
+{% block menuitems %}
+<li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+{% endblock %}
+
+
+
 {% block content %}
 
 <div class="container main-gallery">
-      <h1>Where are you?</h1>
+
 {% if bars_list %}
 
     {% for bar in bars_list %}

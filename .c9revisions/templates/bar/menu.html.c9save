@@ -22,3 +22,17 @@
 {"ts":1353878102586,"patch":[[{"diffs":[[0,"rink.bar"],[1,"}} "],[0,"{{drink."]],"start1":248,"start2":248,"length1":16,"length2":19}]],"length":398,"saved":false}
 {"ts":1353878104694,"patch":[[{"diffs":[[0,"k.bar}} "],[1," --"],[0,"{{drink."]],"start1":251,"start2":251,"length1":16,"length2":19}]],"length":401,"saved":false}
 {"ts":1353878106050,"patch":[[{"diffs":[[0,"ar}}  --"],[1,"  "],[0,"{{drink."]],"start1":254,"start2":254,"length1":16,"length2":18}]],"length":403,"saved":false}
+{"ts":1353879183765,"patch":[[{"diffs":[[0,"e.html\" %}\r\n"],[1,"{% block navtitle %}Location{% endblock %}\r\n\r\n{% block menuitems %}\r\n<li><a href=\"#\">link</a></li>\r\n              <li><a href=\"#\">link</a></li>\r\n              <li><a href=\"#\">link</a></li>\r\n{% endblock %}"],[0,"\r\n{% block c"]],"start1":23,"start2":23,"length1":24,"length2":228}]],"length":607,"saved":false}
+{"ts":1353879186596,"patch":[[{"diffs":[[0,"e.html\" %}\r\n"],[1,"\r\n"],[0,"{% block nav"]],"start1":23,"start2":23,"length1":24,"length2":26}]],"length":609,"saved":false}
+{"ts":1353879189861,"patch":[[{"diffs":[[0,"ock %}\r\n"],[1,"\r\n"],[0,"{% block"]],"start1":235,"start2":235,"length1":16,"length2":18}]],"length":611,"saved":false}
+{"ts":1353879215252,"patch":[[{"diffs":[[0,"k</a></li>\r\n"],[-1,"              "],[0,"<li><a href="]],"start1":125,"start2":125,"length1":38,"length2":24}]],"length":597,"saved":false}
+{"ts":1353879218244,"patch":[[{"diffs":[[0,"></li>\r\n"],[-1,"             "],[0," <li><a "]],"start1":160,"start2":160,"length1":29,"length2":16}]],"length":584,"saved":false}
+{"ts":1353879219932,"patch":[[{"diffs":[[0,"></li>\r\n"],[-1," "],[0,"<li><a h"]],"start1":160,"start2":160,"length1":17,"length2":16}]],"length":583,"saved":false}
+{"ts":1353879223771,"patch":[[{"diffs":[[0,"<li><a href=\"#\">"],[-1,"link"],[0,"</a></li>\r\n<li><"]],"start1":106,"start2":106,"length1":36,"length2":32}]],"length":579,"saved":false}
+{"ts":1353879225257,"patch":[[{"diffs":[[0,"ref=\"#\">"],[1,"Beer"],[0,"</a></li"]],"start1":114,"start2":114,"length1":16,"length2":20}]],"length":583,"saved":false}
+{"ts":1353879227678,"patch":[[{"diffs":[[0,"<li><a href=\"#\">"],[-1,"link"],[1,"Wine"],[0,"</a></li>\r\n<li><"]],"start1":137,"start2":137,"length1":36,"length2":36}]],"length":583,"saved":false}
+{"ts":1353879230666,"patch":[[{"diffs":[[0,"\"#\">"],[-1,"link"],[1,"Cocktails"],[0,"</a>"]],"start1":180,"start2":180,"length1":12,"length2":17}]],"length":588,"saved":false}
+{"ts":1353879266588,"patch":[[{"diffs":[[0,"e %}"],[-1,"Location"],[0,"{% e"]],"start1":53,"start2":53,"length1":16,"length2":8}]],"length":580,"saved":false}
+{"ts":1353879267957,"patch":[[{"diffs":[[0,"title %}"],[1,"Menu"],[0,"{% endbl"]],"start1":49,"start2":49,"length1":16,"length2":20}]],"length":584,"saved":false}
+{"ts":1353879277198,"patch":[[{"diffs":[[0,"><p>"],[-1,"{{drink.bar}}  --  "],[0,"{{dr"]],"start1":422,"start2":422,"length1":27,"length2":8}]],"length":565,"saved":false}
+{"ts":1353879283018,"patch":[[{"diffs":[[0,"\">\r\n"],[-1,"      <h1>menu</h1>"],[0,"\r\n{%"]],"start1":275,"start2":275,"length1":27,"length2":8}]],"length":546,"saved":false}

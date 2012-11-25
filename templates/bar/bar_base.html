@@ -23,16 +23,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Bar App</a>
+          <p class="brand" href="#">{% block navtitle %}{% endblock %}</p>
           <div class="nav-collapse collapse">
             <ul class="nav pull-left">
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
-            </ul>
-            <ul class="nav pull-right">
-              <li><a href="javascript:viewcart()">Cart</a></li>
-              <li><a href="/jewelry/about/">About</a></li>
+              {% block menuitems %}{% endblock %}
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -41,14 +35,6 @@
 
     {% block content %}{% endblock %}
 
-            <form style="display:none" name="cartlink" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">  
-                <input type="hidden" name="business" value="mtgoral@mit.edu">  
-                <input type="hidden" name="cmd" value="_cart">  
-                <input type="hidden" name="display" value="1">  
-                <input type="image" name="submit" border="0"  
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif"   
-                    alt="PayPal - The safer, easier way to pay online">  
-            </form> 
     <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap.min.js"></script>
     
     </body>
