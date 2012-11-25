@@ -22,3 +22,5 @@
 {"ts":1353875896296,"patch":[[{"diffs":[[0,"tem.name"],[1,"}}"],[0,"</p>\r\n  "]],"start1":181,"start2":181,"length1":16,"length2":18}]],"length":294,"saved":false}
 {"ts":1353875898895,"patch":[[{"diffs":[[0,"\r\n    \r\n"],[-1,"    \r\n"],[0,"    <p>{"]],"start1":157,"start2":157,"length1":22,"length2":16}]],"length":288,"saved":false}
 {"ts":1353875901830,"patch":[[{"diffs":[[0,"}}</p>\r\n"],[1,"    \r\n"],[0,"    {% e"]],"start1":183,"start2":183,"length1":16,"length2":22}]],"length":294,"saved":false}
+{"ts":1353876108959,"patch":[[{"diffs":[[0," \r\n{% if bar"],[1,"s"],[0,"_list %}\r\n\r\n"]],"start1":103,"start2":103,"length1":24,"length2":25}]],"length":295,"saved":false}
+{"ts":1353876111329,"patch":[[{"diffs":[[0,"m in bar"],[1,"s"],[0,"_list %}"]],"start1":142,"start2":142,"length1":16,"length2":17}]],"length":296,"saved":false}
