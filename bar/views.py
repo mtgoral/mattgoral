@@ -15,4 +15,4 @@ def menu(request, bar_id):
     
 def drink(request, drink_id):
     drink = Drink.objects.filter(id=drink_id)
-    return render_to_response('bar/drink.html', {'drink': drink}, context_instance=RequestContext(request))
+    return render_to_response('bar/drink.html', {'drink': drink})
