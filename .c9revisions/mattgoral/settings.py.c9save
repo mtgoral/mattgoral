@@ -2,3 +2,4 @@
 {"contributors":[],"silentsave":false,"ts":1353391008796,"patch":[[{"diffs":[[0," paths.\n"],[1,"    '/home/ubuntu/mattgoral/templates'\n"],[0,")\n\nINSTA"]],"start1":4017,"start2":4017,"length1":16,"length2":55}]],"length":5319,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1353392970283,"patch":[[{"diffs":[[0,"_URL = '"],[1,"http://www.mattgoral.com"],[0,"/static/"]],"start1":2277,"start2":2277,"length1":16,"length2":40}]],"length":5343,"saved":false}
 {"ts":1353393085470,"patch":[[{"diffs":[[0," = '"],[-1,"http://www.mattgoral.com"],[0,"/sta"]],"start1":2281,"start2":2281,"length1":32,"length2":8}]],"length":5319,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1353869941552,"patch":[[{"diffs":[[0,"emplates"],[1,"/"],[0,"'\n)\n\nINS"]],"start1":4054,"start2":4054,"length1":16,"length2":17},{"diffs":[[0,"welry',\n"],[1,"    'bar',\n"],[0,")\n\n# A s"]],"start1":4454,"start2":4454,"length1":16,"length2":27}]],"length":5331,"saved":false}
