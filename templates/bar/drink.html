@@ -14,11 +14,11 @@
 
 {% if drink %}
 
-
+    {% for item in drink %}
     
-    <a href="#"><div class="row"><div class="span12 barname"><p>{{drink.name}}</p></div></div></a>
+    <a href="#"><div class="row"><div class="span12 barname"><p>{{item.name}}</p></div></div></a>
     
-
+    {% endfor %}
 
 {% else %}
     <p>Nothing here.</p>
