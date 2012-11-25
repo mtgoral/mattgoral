@@ -101,3 +101,5 @@
 {"ts":1353887231806,"patch":[[{"diffs":[[0,"\nclass O"],[1,"rder"],[0,"Form(Mod"]],"start1":653,"start2":653,"length1":16,"length2":20}]],"length":719,"saved":false}
 {"ts":1353887239537,"patch":[[{"diffs":[[0,"l = "],[-1,"Event"]],"start1":710,"start2":710,"length1":9,"length2":4}]],"length":714,"saved":false}
 {"ts":1353887242395,"patch":[[{"diffs":[[0,"model = "],[1,"OrderItem"]],"start1":706,"start2":706,"length1":8,"length2":17}]],"length":723,"saved":false}
+{"ts":1353887286864,"patch":[[{"diffs":[[0," models\n"],[1,"from django.forms import ModelForm"],[0,"\nclass B"]],"start1":21,"start2":21,"length1":16,"length2":50}]],"length":757,"saved":false}
+{"ts":1353887287818,"patch":[[{"diffs":[[0,"delForm\n"],[1,"\n"],[0,"class Ba"]],"start1":56,"start2":56,"length1":16,"length2":17}]],"length":758,"saved":false}
