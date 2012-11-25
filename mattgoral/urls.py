@@ -28,5 +28,5 @@ urlpatterns = patterns('',
     url(r'^jewelry/about/$', 'jewelry.views.about'),
     
     url(r'^bar/$', 'bar.views.home'),
-    url(r'^jewelry/(?P<item_id>\d+)/$', 'bar.views.menu'),
+    #url(r'^jewelry/(?P<item_id>\d+)/$', 'bar.views.menu'),
 )

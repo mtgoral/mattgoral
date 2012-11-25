@@ -41,3 +41,4 @@
 {"ts":1353875343536,"patch":[[{"diffs":[[0,")/$', 'b"],[1,"ar"],[0,".views.d"]],"start1":1222,"start2":1222,"length1":16,"length2":18}]],"length":1251,"saved":false}
 {"ts":1353875345863,"patch":[[{"diffs":[[0," 'bar.views."],[-1,"detail"],[0,"'),\n)\n"]],"start1":1227,"start2":1227,"length1":24,"length2":18}]],"length":1245,"saved":false}
 {"ts":1353875347355,"patch":[[{"diffs":[[0,"r.views."],[1,"menu"],[0,"'),\n)\n"]],"start1":1231,"start2":1231,"length1":14,"length2":18}]],"length":1249,"saved":false}
+{"ts":1353875974768,"patch":[[{"diffs":[[0,"ews.home'),\n    "],[1,"#"],[0,"url(r'^jewelry/("]],"start1":1176,"start2":1176,"length1":32,"length2":33}]],"length":1250,"saved":false}
