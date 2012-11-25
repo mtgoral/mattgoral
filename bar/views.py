@@ -3,6 +3,7 @@ from bar.models import Bar, Drink
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.http import Http404
+from django.template import RequestContext
 
 def home(request):
     bars_list = Bar.objects.all().order_by('id')
@@ -14,5 +15,4 @@ def menu(request, bar_id):
     
 def drink(request, drink_id):
     drink = Drink.objects.filter(id=drink_id)
-    return render_to_response('bar/drink.html', {'drink': drink})
-    
+    return render_to_response('bar/drink.html', {'drink': drink}, context_instance=RequestContext(request))

@@ -24,6 +24,15 @@
     <p>Nothing here.</p>
 {% endif %}
 
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<form action="/bar/order/" method="post">
+{% csrf_token %}
+    <input type="text" name="quantity">
+    <label for="quantity">quantity x </label><br />
+    <input type="submit" value="Order" />
+</form>
+
 </div>
 
 {% endblock %}
