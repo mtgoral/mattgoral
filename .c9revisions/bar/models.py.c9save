@@ -21,3 +21,9 @@
 {"ts":1353869802448,"patch":[[{"diffs":[[0,"th=200)\n    "],[-1,"name"],[0," = models.Ch"]],"start1":196,"start2":196,"length1":28,"length2":24}]],"length":243,"saved":false}
 {"ts":1353869804758,"patch":[[{"diffs":[[0,"00)\n    "],[1,"price"],[0," = model"]],"start1":200,"start2":200,"length1":16,"length2":21}]],"length":248,"saved":false}
 {"ts":1353869807868,"patch":[[{"diffs":[[0,"dels.CharField(max_length=20"],[-1,"0"],[0,")"]],"start1":218,"start2":218,"length1":30,"length2":29}]],"length":247,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1353874979285,"patch":[[{"diffs":[[0,"ls\n\n"],[-1,"# Create your models here.\n"],[1,"class Bar(models.Model):\n    name = models.CharField(max_length=200)\n    def __unicode__(self):\n        return self.question\n\nclass Drink(models.Model):\n    bar = models.ForeignKey(Bar)\n    name = models.CharField(max_length=200)\n    price = models.CharField(max_length=20)"]],"start1":26,"start2":26,"length1":31,"length2":277}]],"length":303,"saved":false}
+{"ts":1353874983620,"patch":[[{"diffs":[[0,"elf."],[-1,"questio"],[0,"n\n\nc"]],"start1":142,"start2":142,"length1":15,"length2":8}]],"length":296,"saved":false}
+{"ts":1353874984853,"patch":[[{"diffs":[[0,"n self.n"],[1,"ame"],[0,"\n\nclass "]],"start1":139,"start2":139,"length1":16,"length2":19}]],"length":299,"saved":false}
+{"ts":1353874987479,"patch":[[{"diffs":[[0,"ngth=20)"],[1,"\n    def __unicode__(self):\n        return self.question"]],"start1":291,"start2":291,"length1":8,"length2":64}]],"length":355,"saved":false}
+{"ts":1353874993100,"patch":[[{"diffs":[[0,"elf."],[-1,"questio"],[0,"n"]],"start1":343,"start2":343,"length1":12,"length2":5}]],"length":348,"saved":false}
+{"ts":1353874994212,"patch":[[{"diffs":[[0,"self):\n        return self.n"],[1,"ame"]],"start1":320,"start2":320,"length1":28,"length2":31}]],"length":351,"saved":false}
