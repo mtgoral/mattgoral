@@ -1,0 +1,24 @@
+{"ts":1353877951411,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1353877946527,"patch":[[{"diffs":[[1,"{% extends \"bar/bar_base.html\" %}\r\n\r\n{% block content %}\r\n\r\n<div class=\"container main-gallery\">\r\n      <h1>Where are you?</h1>\r\n{% if bars_list %}\r\n\r\n    {% for bar in bars_list %}\r\n    \r\n    <a href=\"/bar/{{bar.id}}/\"><div class=\"row\"><div class=\"span12 barname\"><p>{{bar.name}}</p></div></div></a>\r\n    \r\n    {% endfor %}\r\n\r\n{% else %}\r\n    <p>Nothing here.</p>\r\n{% endif %}\r\n\r\n</div>\r\n\r\n{% endblock %}"]],"start1":0,"start2":0,"length1":0,"length2":405}]],"length":405,"saved":false}
+{"ts":1353877953002,"patch":[[{"diffs":[[0,"<h1>"],[-1,"Where are you?"],[1,"m"],[0,"</h1"]],"start1":104,"start2":104,"length1":22,"length2":9}]],"length":392,"saved":false}
+{"ts":1353877953954,"patch":[[{"diffs":[[0,"   <h1>m"],[1,"en"],[0,"</h1>\r\n{"]],"start1":101,"start2":101,"length1":16,"length2":18}]],"length":394,"saved":false}
+{"ts":1353877955200,"patch":[[{"diffs":[[0," <h1>men"],[1,"u"],[0,"</h1>\r\n{"]],"start1":103,"start2":103,"length1":16,"length2":17}]],"length":395,"saved":false}
+{"ts":1353878042756,"patch":[[{"diffs":[[0," {% for "],[-1,"bar"],[1,"dri"],[0," in bars"]],"start1":144,"start2":144,"length1":19,"length2":19}]],"length":395,"saved":false}
+{"ts":1353878043675,"patch":[[{"diffs":[[0," for dri"],[1,"nk"],[0," in bars"]],"start1":147,"start2":147,"length1":16,"length2":18}]],"length":397,"saved":false}
+{"ts":1353878047726,"patch":[[{"diffs":[[0,"rink in "],[-1,"bars"],[1,"me"],[0,"_list %}"]],"start1":153,"start2":153,"length1":20,"length2":18}]],"length":395,"saved":false}
+{"ts":1353878048786,"patch":[[{"diffs":[[0,"nk in me"],[1,"nu"],[0,"_list %}"]],"start1":155,"start2":155,"length1":16,"length2":18}]],"length":397,"saved":false}
+{"ts":1353878053177,"patch":[[{"diffs":[[0," if "],[-1,"bars"],[1,"menu"],[0,"_lis"]],"start1":121,"start2":121,"length1":12,"length2":12}]],"length":397,"saved":false}
+{"ts":1353878059949,"patch":[[{"diffs":[[0,"ef=\""],[-1,"/bar/{{bar.id}}/"],[0,"\"><d"]],"start1":190,"start2":190,"length1":24,"length2":8}]],"length":381,"saved":false}
+{"ts":1353878061029,"patch":[[{"diffs":[[0,"a href=\""],[1,"#"],[0,"\"><div c"]],"start1":186,"start2":186,"length1":16,"length2":17}]],"length":382,"saved":false}
+{"ts":1353878077571,"patch":[[{"diffs":[[0,"<p>{{bar"],[1,"\r\n    \r\n    "],[0,".name}}<"]],"start1":242,"start2":242,"length1":16,"length2":28}]],"length":394,"saved":false}
+{"ts":1353878078727,"patch":[[{"diffs":[[0,">{{bar\r\n"],[-1,"    \r\n    "],[0,".name}}<"]],"start1":244,"start2":244,"length1":26,"length2":16}]],"length":384,"saved":false}
+{"ts":1353878079585,"patch":[[{"diffs":[[0,"<p>{{bar"],[-1,"\r\n"],[0,".name}}<"]],"start1":242,"start2":242,"length1":18,"length2":16}]],"length":382,"saved":false}
+{"ts":1353878081663,"patch":[[{"diffs":[[0,"e\"><p>{{"],[-1,"bar"],[0,".name}}<"]],"start1":239,"start2":239,"length1":19,"length2":16}]],"length":379,"saved":false}
+{"ts":1353878083840,"patch":[[{"diffs":[[0,"e\"><p>{{"],[1,"drink.ne"],[0,".name}}<"]],"start1":239,"start2":239,"length1":16,"length2":24}]],"length":387,"saved":false}
+{"ts":1353878085537,"patch":[[{"diffs":[[0,"{drink.n"],[1,"am"],[0,"e.name}}"]],"start1":246,"start2":246,"length1":16,"length2":18}]],"length":389,"saved":false}
+{"ts":1353878087388,"patch":[[{"diffs":[[0,"ink.name"],[-1,".name"],[0,"}}</p></"]],"start1":249,"start2":249,"length1":21,"length2":16}]],"length":384,"saved":false}
+{"ts":1353878098592,"patch":[[{"diffs":[[0,"e\"><p>{{"],[1,"{{"],[0,"drink.na"]],"start1":239,"start2":239,"length1":16,"length2":18}]],"length":386,"saved":false}
+{"ts":1353878101026,"patch":[[{"diffs":[[0,"e\"><p>{{"],[1,"drink.bar"],[0,"{{drink."]],"start1":239,"start2":239,"length1":16,"length2":25}]],"length":395,"saved":false}
+{"ts":1353878102586,"patch":[[{"diffs":[[0,"rink.bar"],[1,"}} "],[0,"{{drink."]],"start1":248,"start2":248,"length1":16,"length2":19}]],"length":398,"saved":false}
+{"ts":1353878104694,"patch":[[{"diffs":[[0,"k.bar}} "],[1," --"],[0,"{{drink."]],"start1":251,"start2":251,"length1":16,"length2":19}]],"length":401,"saved":false}
+{"ts":1353878106050,"patch":[[{"diffs":[[0,"ar}}  --"],[1,"  "],[0,"{{drink."]],"start1":254,"start2":254,"length1":16,"length2":18}]],"length":403,"saved":false}

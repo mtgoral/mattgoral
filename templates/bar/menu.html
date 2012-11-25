@@ -1,0 +1,21 @@
+{% extends "bar/bar_base.html" %}
+
+{% block content %}
+
+<div class="container main-gallery">
+      <h1>menu</h1>
+{% if menu_list %}
+
+    {% for drink in menu_list %}
+    
+    <a href="#"><div class="row"><div class="span12 barname"><p>{{drink.bar}}  --  {{drink.name}}</p></div></div></a>
+    
+    {% endfor %}
+
+{% else %}
+    <p>Nothing here.</p>
+{% endif %}
+
+</div>
+
+{% endblock %}
