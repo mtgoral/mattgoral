@@ -9,6 +9,6 @@ def home(request):
     return render_to_response('bar/barlist.html', {'bars_list': bars_list})
     
 def menu(request, bar_id):
-    menu_list = Drink.objects.filter(bar=bar_id.id)
+    menu_list = Drink.objects.filter(bar=bar_id)
     return render_to_response('bar/menu.html', {'menu_list': menu_list})
     
