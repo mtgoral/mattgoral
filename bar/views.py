@@ -8,5 +8,5 @@ def home(request):
     bars_list = Bar.objects.all().order_by('id')
     return render_to_response('bar/barlist.html', {'bars_list': bars_list})
     
-def menu(request, bar_name):
-    return HttpResponse("You're looking at %s." % bar_name)
+def menu(request, bar_id):
+    return HttpResponse("You're looking at %s." % bar_id)

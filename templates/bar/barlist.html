@@ -6,9 +6,9 @@
       <h1>Where are you?</h1>
 {% if bars_list %}
 
-    {% for item in bars_list %}
+    {% for bar in bars_list %}
     
-    <a href="/bar/{{item.name}}/"><div class="row"><div class="span12 barname"><p>{{item.name}}</p></div></div></a>
+    <a href="/bar/{{bar.id}}/"><div class="row"><div class="span12 barname"><p>{{bar.name}}</p></div></div></a>
     
     {% endfor %}
 
