@@ -165,3 +165,5 @@
 {"ts":1353891305274,"patch":[[{"diffs":[[0,"_list': "],[1,"orderd"],[0,"})\r\n    "]],"start1":939,"start2":939,"length1":16,"length2":22}]],"length":1106,"saved":false}
 {"ts":1353891306752,"patch":[[{"diffs":[[0,": orderd"],[1,"etail_l"],[0,"})\r\n    "]],"start1":945,"start2":945,"length1":16,"length2":23}]],"length":1113,"saved":false}
 {"ts":1353891307824,"patch":[[{"diffs":[[0,"detail_l"],[1,"ist"],[0,"})\r\n    "]],"start1":952,"start2":952,"length1":16,"length2":19}]],"length":1116,"saved":false}
+{"ts":1353891509099,"patch":[[{"diffs":[[0,"est,"],[-1," bar_id,"],[0," ord"]],"start1":763,"start2":763,"length1":16,"length2":8}]],"length":1108,"saved":false}
+{"ts":1353891516355,"patch":[[{"diffs":[[0,"ter("],[-1,"bar=bar_id).filter("],[0,"orde"]],"start1":824,"start2":824,"length1":27,"length2":8}]],"length":1089,"saved":false}

@@ -31,5 +31,5 @@ urlpatterns = patterns('',
     url(r'^bar/bar(?P<bar_id>\d+)/$', 'bar.views.menu'),
     url(r'^bar/drink(?P<drink_id>\d+)/$', 'bar.views.drink'),
     url(r'^bar/bar(?P<bar_id>\d+)/orders/$', 'bar.views.orders'),
-    url(r'^bar/bar(?P<bar_id>\d+)/orders/order(?P<order_id>\d+)/$', 'bar.views.orderdetail'),
+    url(r'^bar/order(?P<order_id>\d+)/$', 'bar.views.orderdetail'),
 )
