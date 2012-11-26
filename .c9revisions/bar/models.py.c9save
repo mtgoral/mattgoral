@@ -132,3 +132,4 @@
 {"ts":1353890898626,"patch":[[{"diffs":[[0,"Field()\n"],[1,"    def __unicode__(self):\n        return self.name\n"],[0,"    \ncla"]],"start1":657,"start2":657,"length1":16,"length2":68}]],"length":791,"saved":false}
 {"ts":1353890908241,"patch":[[{"diffs":[[0,"return self."],[-1,"name"],[0,"\n    \nclass "]],"start1":700,"start2":700,"length1":28,"length2":24}]],"length":787,"saved":false}
 {"ts":1353890909754,"patch":[[{"diffs":[[0,"rn self."],[1,"drink"],[0,"\n    \ncl"]],"start1":704,"start2":704,"length1":16,"length2":21}]],"length":792,"saved":false}
+{"ts":1353890954099,"patch":[[{"diffs":[[0,"      return"],[1," u\"%s\" %"],[0," self.drink\n"]],"start1":694,"start2":694,"length1":24,"length2":32}]],"length":800,"saved":false}

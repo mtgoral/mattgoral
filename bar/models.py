@@ -23,7 +23,7 @@ class OrderItem(models.Model):
     drink = models.ForeignKey(Drink)
     quantity = models.IntegerField()
     def __unicode__(self):
-        return self.drink
+        return u"%s" % self.drink
     
 class OrderForm(ModelForm):
     class Meta:
