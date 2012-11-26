@@ -398,3 +398,14 @@
 {"ts":1353900286594,"patch":[[{"diffs":[[0,"ar'] == "],[1,"'"],[0,"new:\r\n  "]],"start1":1114,"start2":1114,"length1":16,"length2":17}]],"length":1945,"saved":false}
 {"ts":1353900288179,"patch":[[{"diffs":[[0," == 'new"],[1,"'"],[0,":\r\n     "]],"start1":1118,"start2":1118,"length1":16,"length2":17}]],"length":1946,"saved":false}
 {"ts":1353900295453,"patch":[[{"diffs":[[0,"t.POST['"],[-1,"bar"],[1,"new"],[0,"'] == 'n"]],"start1":1105,"start2":1105,"length1":19,"length2":19}]],"length":1946,"saved":false}
+{"ts":1353901300361,"patch":[[{"diffs":[[0," else:\r\n        "],[1,"TotalOrders "],[0,"\r\n        form ="]],"start1":1745,"start2":1745,"length1":32,"length2":44}]],"length":1958,"saved":false}
+{"ts":1353901301458,"patch":[[{"diffs":[[0,"lOrders "],[1,"= O"],[0,"\r\n      "]],"start1":1765,"start2":1765,"length1":16,"length2":19}]],"length":1961,"saved":false}
+{"ts":1353901302350,"patch":[[{"diffs":[[0,"ders = O"],[1,"rd"],[0,"\r\n      "]],"start1":1768,"start2":1768,"length1":16,"length2":18}]],"length":1963,"saved":false}
+{"ts":1353901303761,"patch":[[{"diffs":[[0,"rs = Ord"],[1,"er.o"],[0,"\r\n      "]],"start1":1770,"start2":1770,"length1":16,"length2":20}]],"length":1967,"saved":false}
+{"ts":1353901304837,"patch":[[{"diffs":[[0," Order.o"],[1,"bje"],[0,"\r\n      "]],"start1":1774,"start2":1774,"length1":16,"length2":19}]],"length":1970,"saved":false}
+{"ts":1353901306452,"patch":[[{"diffs":[[0,"der.obje"],[1,"cts.cou"],[0,"\r\n      "]],"start1":1777,"start2":1777,"length1":16,"length2":23}]],"length":1977,"saved":false}
+{"ts":1353901307574,"patch":[[{"diffs":[[0,"ects.cou"],[1,"nt"],[0,"\r\n      "]],"start1":1784,"start2":1784,"length1":16,"length2":18}]],"length":1979,"saved":false}
+{"ts":1353901308476,"patch":[[{"diffs":[[0,"ts.count"],[1,"()"],[0,"\r\n      "]],"start1":1786,"start2":1786,"length1":16,"length2":18}]],"length":1981,"saved":false}
+{"ts":1353901314295,"patch":[[{"diffs":[[0,"r': "],[-1,"'1'"],[1,"t"],[0," }) "]],"start1":1871,"start2":1871,"length1":11,"length2":9}]],"length":1979,"saved":false}
+{"ts":1353901316217,"patch":[[{"diffs":[[0,"rder': t"],[1,"otalo"],[0," }) # An"]],"start1":1868,"start2":1868,"length1":16,"length2":21}]],"length":1984,"saved":false}
+{"ts":1353901320268,"patch":[[{"diffs":[[0,"r': "],[-1,"t"],[1,"T"],[0,"otal"],[-1,"o"],[1,"Orders"],[0," }) "]],"start1":1871,"start2":1871,"length1":14,"length2":19}]],"length":1989,"saved":false}

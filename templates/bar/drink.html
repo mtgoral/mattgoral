@@ -19,11 +19,12 @@
 <form id="orderform" method="post">
     {% csrf_token %}
     {{form}}
-    <input type="text" name="new" value="5" />
+    <input type="text" name="new" value="" />
     <input type="submit" value="Submit" />
 </form>
 
 <script type="text/javascript">
+    checkCookie();
     $('.autoname').html($("select[name='drink'] option:selected").html());
     $("#orderform").attr("action", '/bar/bar' + $("select[name='drink'] option:selected").val()drink + '/drink' + $("select[name='drink'] option:selected").val() + '/');
 </script>
