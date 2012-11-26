@@ -119,3 +119,4 @@
 {"ts":1353888071605,"patch":[[{"diffs":[[0,"ForeignK"],[1,"ey("],[0,"\n    qua"]],"start1":602,"start2":602,"length1":16,"length2":19}]],"length":778,"saved":false}
 {"ts":1353888073860,"patch":[[{"diffs":[[0,"eignKey("],[1,"Drink"],[0,"\n    qua"]],"start1":605,"start2":605,"length1":16,"length2":21}]],"length":783,"saved":false}
 {"ts":1353888075018,"patch":[[{"diffs":[[0,"ignKey(Drink"],[1,")"],[0,"\n    quantit"]],"start1":606,"start2":606,"length1":24,"length2":25}]],"length":784,"saved":false}
+{"ts":1353889170616,"patch":[[{"diffs":[[0,"(models.Model):\n"],[1,"    id = models.AutoField(primary_key=True)\n"],[0,"    bar = models"]],"start1":407,"start2":407,"length1":32,"length2":76}]],"length":828,"saved":false}

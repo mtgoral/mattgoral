@@ -14,6 +14,7 @@ class Drink(models.Model):
         return self.name
         
 class Order(models.Model):
+    id = models.AutoField(primary_key=True)
     bar = models.ForeignKey(Bar)
     def __unicode__(self):
         return self.id
