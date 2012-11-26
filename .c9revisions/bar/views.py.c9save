@@ -277,3 +277,6 @@
 {"ts":1353896065513,"patch":[[{"diffs":[[0,".get(pk="],[1,"qq"],[0,"\r\n      "]],"start1":1150,"start2":1150,"length1":16,"length2":18}]],"length":1609,"saved":false}
 {"ts":1353896066516,"patch":[[{"diffs":[[0,"et(pk=qq"],[1,"q"],[0,"\r\n      "]],"start1":1152,"start2":1152,"length1":16,"length2":17}]],"length":1610,"saved":false}
 {"ts":1353896067680,"patch":[[{"diffs":[[0,"t(pk=qqq"],[1,")"],[0,"\r\n      "]],"start1":1153,"start2":1153,"length1":16,"length2":17}]],"length":1611,"saved":false}
+{"ts":1353896133207,"patch":[[{"diffs":[[0,"q = "],[-1,"request.POST['order']"],[0,"\r\n  "]],"start1":1090,"start2":1090,"length1":29,"length2":8}]],"length":1590,"saved":false}
+{"ts":1353896135538,"patch":[[{"diffs":[[0,".get(pk="],[-1,"qqq"],[1,"request.POST['order']"],[0,")\r\n     "]],"start1":1129,"start2":1129,"length1":19,"length2":37}]],"length":1608,"saved":false}
+{"ts":1353896139682,"patch":[[{"diffs":[[0,"):\r\n"],[-1,"            qqq = \r\n"],[0,"    "]],"start1":1072,"start2":1072,"length1":28,"length2":8}]],"length":1588,"saved":false}
