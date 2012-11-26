@@ -19,6 +19,7 @@ class Order(models.Model):
         return u"%s" % self.id
         
 class OrderItem(models.Model):
+    bar = models.ForeignKey(Bar)
     order = models.ForeignKey(Order)
     drink = models.ForeignKey(Drink)
     quantity = models.IntegerField()
