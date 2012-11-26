@@ -15,6 +15,8 @@ class Drink(models.Model):
         
 class Order(models.Model):
     bar = models.ForeignKey(Bar)
+    def __unicode__(self):
+        return u"%s" % self.id
         
 class OrderItem(models.Model):
     order = models.ForeignKey(Order)

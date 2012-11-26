@@ -127,3 +127,5 @@
 {"ts":1353890098010,"patch":[[{"diffs":[[0,"l):\n"],[-1,"    orderId = models.IntegerField()\n"],[0,"    "]],"start1":419,"start2":419,"length1":44,"length2":8}]],"length":789,"saved":false}
 {"ts":1353890128769,"patch":[[{"diffs":[[0,"ar)\n"],[-1,"    def __unicode__(self):\n        return self.orderId\n"],[0,"    "]],"start1":452,"start2":452,"length1":63,"length2":8}]],"length":734,"saved":false}
 {"ts":1353890175357,"patch":[[{"diffs":[[0,"d()\n"],[-1,"    def __unicode__(self):\n        return self.drink\n"],[0,"    "]],"start1":603,"start2":603,"length1":61,"length2":8}]],"length":681,"saved":false}
+{"ts":1353890804148,"patch":[[{"diffs":[[0,"ignKey(Bar)\n"],[1,"    def __unicode__(self):\n        return self.name\n"],[0,"        \ncla"]],"start1":444,"start2":444,"length1":24,"length2":76}]],"length":733,"saved":false}
+{"ts":1353890815253,"patch":[[{"diffs":[[0,"      return"],[1," u\"%s\" %"],[0," self."],[-1,"name"],[1,"id"],[0,"\n        \ncl"]],"start1":485,"start2":485,"length1":34,"length2":40}]],"length":739,"saved":false}
