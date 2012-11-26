@@ -241,3 +241,4 @@
 {"ts":1353893672467,"patch":[[{"diffs":[[0,"k_id):\r\n    "],[1,"#"],[0,"drink = Drin"]],"start1":969,"start2":969,"length1":24,"length2":25}]],"length":1686,"saved":false}
 {"ts":1353893691519,"patch":[[{"diffs":[[0,"': drink"],[1,"_id"],[0," }) # An"]],"start1":1593,"start2":1593,"length1":16,"length2":19}]],"length":1689,"saved":false}
 {"ts":1353893770544,"patch":[[{"diffs":[[0,"ort "],[-1,"Bar, Drink, Order, OrderItem"],[1,"*"],[0,"\r\nfr"]],"start1":64,"start2":64,"length1":36,"length2":9}]],"length":1662,"saved":false}
+{"ts":1353893823991,"patch":[[{"diffs":[[0,"_to_response"],[1,", render"],[0,"\r\nfrom djang"]],"start1":144,"start2":144,"length1":24,"length2":32}]],"length":1670,"saved":false}
