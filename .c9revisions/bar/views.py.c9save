@@ -261,3 +261,5 @@
 {"ts":1353895061580,"patch":[[{"diffs":[[0,"rink_id'"],[1,": drink_"],[0,")"]],"start1":1552,"start2":1552,"length1":9,"length2":17}]],"length":1569,"saved":false}
 {"ts":1353895062803,"patch":[[{"diffs":[[0,": drink_"],[1,"id"],[0,")"]],"start1":1560,"start2":1560,"length1":9,"length2":11}]],"length":1571,"saved":false}
 {"ts":1353895064704,"patch":[[{"diffs":[[0,"nk_id': drink_id"],[1,"}"],[0,")"]],"start1":1554,"start2":1554,"length1":17,"length2":18}]],"length":1572,"saved":false}
+{"ts":1353895121868,"patch":[[{"diffs":[[0,"ink_id})"],[1,"\r\n    \r\n    \r\n    "]],"start1":1564,"start2":1564,"length1":8,"length2":26}]],"length":1590,"saved":false}
+{"ts":1353895195427,"patch":[[{"diffs":[[0,"orm "],[-1,"}, {'drink_id': drink_id"],[0,"})\r\n"]],"start1":1542,"start2":1542,"length1":32,"length2":8}]],"length":1566,"saved":false}
