@@ -140,3 +140,4 @@
 {"ts":1353888414854,"patch":[[{"diffs":[[0,"_list': "],[-1,"drink"],[1,"or"],[0,"})\r\n    "]],"start1":696,"start2":696,"length1":21,"length2":18}]],"length":1037,"saved":false}
 {"ts":1353888416196,"patch":[[{"diffs":[[0,"ist': or"],[1,"ders"],[0,"})\r\n    "]],"start1":698,"start2":698,"length1":16,"length2":20}]],"length":1041,"saved":false}
 {"ts":1353888417538,"patch":[[{"diffs":[[0,": orders"],[1,"_list"],[0,"})\r\n    "]],"start1":702,"start2":702,"length1":16,"length2":21}]],"length":1046,"saved":false}
+{"ts":1353891072969,"patch":[[{"diffs":[[0,"r, Drink"],[1,", Order, OrderItem"],[0,"\r\nfrom d"]],"start1":70,"start2":70,"length1":16,"length2":34}]],"length":1064,"saved":false}

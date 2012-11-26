@@ -1,5 +1,5 @@
 from django.template import Context, loader
-from bar.models import Bar, Drink
+from bar.models import Bar, Drink, Order, OrderItem
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.http import Http404
