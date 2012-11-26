@@ -14,14 +14,16 @@ class Drink(models.Model):
         return self.name
         
 class Order(models.Model):
-    orderID = models.CharField(max_length=200)
+    bar = models.ForeignKey(Bar)
     def __unicode__(self):
-        return self.orderID
+        return self.id
         
 class OrderItem(models.Model):
     order = models.ForeignKey(Order)
-    drink = models.CharField(max_length=200)
+    drink = models.ForeignKey(Drink)
     quantity = models.IntegerField()
+    def __unicode__(self):
+        return self.drink
     
 class OrderForm(ModelForm):
     class Meta:

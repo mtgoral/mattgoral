@@ -103,3 +103,19 @@
 {"ts":1353887242395,"patch":[[{"diffs":[[0,"model = "],[1,"OrderItem"]],"start1":706,"start2":706,"length1":8,"length2":17}]],"length":723,"saved":false}
 {"ts":1353887286864,"patch":[[{"diffs":[[0," models\n"],[1,"from django.forms import ModelForm"],[0,"\nclass B"]],"start1":21,"start2":21,"length1":16,"length2":50}]],"length":757,"saved":false}
 {"ts":1353887287818,"patch":[[{"diffs":[[0,"delForm\n"],[1,"\n"],[0,"class Ba"]],"start1":56,"start2":56,"length1":16,"length2":17}]],"length":758,"saved":false}
+{"ts":1353887583788,"patch":[[{"diffs":[[0,"Field()\n"],[1,"    def __unicode__(self):\n        return self.orderID\n"],[0,"    \ncla"]],"start1":676,"start2":676,"length1":16,"length2":71}]],"length":813,"saved":false}
+{"ts":1353887588965,"patch":[[{"diffs":[[0,"return self."],[-1,"orderID"],[1,"d"],[0,"\n    \nclass "]],"start1":719,"start2":719,"length1":31,"length2":25}]],"length":807,"saved":false}
+{"ts":1353887590504,"patch":[[{"diffs":[[0,"n self.d"],[1,"rink"],[0,"\n    \ncl"]],"start1":724,"start2":724,"length1":16,"length2":20}]],"length":811,"saved":false}
+{"ts":1353887949786,"patch":[[{"diffs":[[0,"    "],[-1,"orderID = models.CharField(max_length=200)"],[1,"bar"],[0,"\n   "]],"start1":423,"start2":423,"length1":50,"length2":11}]],"length":772,"saved":false}
+{"ts":1353887952000,"patch":[[{"diffs":[[0,"\n    bar"],[1," "],[0,"\n    def"]],"start1":422,"start2":422,"length1":16,"length2":17}]],"length":773,"saved":false}
+{"ts":1353887956169,"patch":[[{"diffs":[[0,"    bar "],[1,"= models.Foreign"],[0,"\n    def"]],"start1":423,"start2":423,"length1":16,"length2":32}]],"length":789,"saved":false}
+{"ts":1353887957535,"patch":[[{"diffs":[[0,".Foreign"],[1,"Key"],[0,"\n    def"]],"start1":439,"start2":439,"length1":16,"length2":19}]],"length":792,"saved":false}
+{"ts":1353887959114,"patch":[[{"diffs":[[0,"reignKey"],[1,"("],[0,"\n    def"]],"start1":442,"start2":442,"length1":16,"length2":17}]],"length":793,"saved":false}
+{"ts":1353887960661,"patch":[[{"diffs":[[0,"eignKey("],[1,"Bar"],[0,"\n    def"]],"start1":443,"start2":443,"length1":16,"length2":19}]],"length":796,"saved":false}
+{"ts":1353887961453,"patch":[[{"diffs":[[0,"nKey(Bar"],[1,")"],[0,"\n    def"]],"start1":446,"start2":446,"length1":16,"length2":17}]],"length":797,"saved":false}
+{"ts":1353888053909,"patch":[[{"diffs":[[0,"elf."],[-1,"orderID"],[1,"i"],[0,"\n   "]],"start1":499,"start2":499,"length1":15,"length2":9}]],"length":791,"saved":false}
+{"ts":1353888055113,"patch":[[{"diffs":[[0,"n self.i"],[1,"d"],[0,"\n       "]],"start1":496,"start2":496,"length1":16,"length2":17}]],"length":792,"saved":false}
+{"ts":1353888070136,"patch":[[{"diffs":[[0,"els."],[-1,"CharField(max_length=200)"],[1,"ForeignK"],[0,"\n   "]],"start1":598,"start2":598,"length1":33,"length2":16}]],"length":775,"saved":false}
+{"ts":1353888071605,"patch":[[{"diffs":[[0,"ForeignK"],[1,"ey("],[0,"\n    qua"]],"start1":602,"start2":602,"length1":16,"length2":19}]],"length":778,"saved":false}
+{"ts":1353888073860,"patch":[[{"diffs":[[0,"eignKey("],[1,"Drink"],[0,"\n    qua"]],"start1":605,"start2":605,"length1":16,"length2":21}]],"length":783,"saved":false}
+{"ts":1353888075018,"patch":[[{"diffs":[[0,"ignKey(Drink"],[1,")"],[0,"\n    quantit"]],"start1":606,"start2":606,"length1":24,"length2":25}]],"length":784,"saved":false}
