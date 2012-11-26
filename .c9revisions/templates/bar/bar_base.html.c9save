@@ -16,3 +16,4 @@
 {"ts":1353879429374,"patch":[[{"diffs":[[0,"       <"],[-1,"p"],[1,"a"],[0," class=\""]],"start1":1080,"start2":1080,"length1":17,"length2":17}]],"length":1553,"saved":false}
 {"ts":1353879433196,"patch":[[{"diffs":[[0,"ock %}</"],[-1,"p"],[1,"a"],[0,">\r\n     "]],"start1":1141,"start2":1141,"length1":17,"length2":17}]],"length":1553,"saved":false}
 {"ts":1353879436587,"patch":[[{"diffs":[[0,"ef=\""],[-1,"#"],[0,"\">{%"]],"start1":1106,"start2":1106,"length1":9,"length2":8}]],"length":1552,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1353901784884,"patch":[[{"diffs":[[0,"sheet\">\r"],[1,"\n    <script src=\"https://dl.dropbox.com/u/874495/ec2/bar/cookie.js\"></script>\r"],[0,"\n\r\n  </h"]],"start1":679,"start2":679,"length1":16,"length2":95}]],"length":1631,"saved":false}
