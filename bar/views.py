@@ -36,7 +36,7 @@ def drink(request, bar_id, drink_id):
             orderid = orderitem.order
             return render(request, '/')
     else:
-        form = OrderForm(initial={'drink': drink_id }) # An unbound form
+        form = OrderForm(initial={'drink': drink_id, 'bar': bar_id }) # An unbound form
     return render(request, 'bar/drink.html', { 'form': form })
     
     
