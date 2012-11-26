@@ -24,3 +24,17 @@ def orderdetail(request, order_id):
 def drink(request, drink_id):
     drink = Drink.objects.filter(id=drink_id)
     return render_to_response('bar/drink.html', {'drink': drink})
+    
+    if request.method == 'POST':
+        form = OrderForm(request.POST, request.FILES)
+        if form.is_valid():
+            order = request.POST['order']
+            drink = request.POST['drink']
+            quantity = request.POST['quantity']
+            orderitem = OrderItem(order=order, drink=drink, quantity=quantity)
+            orderitem.save()
+            orderid = orderitem.order
+            return render(request, '/')
+    else:
+        form = OrderForm(initial={'drink': drink }) # An unbound form
+    return render(request, 'bar/drink.html', { 'form': form })
