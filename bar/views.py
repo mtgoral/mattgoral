@@ -37,7 +37,8 @@ def drink(request, bar_id, drink_id):
             orderitem = OrderItem(bar=bar, order=order, drink=drink, quantity=quantity)
             orderitem.save()
             orderid = orderitem.order
-            return render(request, '/bar/')
+            menu_list = Drink.objects.filter(bar=bar_id)
+            return render_to_response('bar/menu.html', {'menu_list': menu_list})
     else:
         TotalOrders = Order.objects.count()
         form = OrderForm(initial={'drink': drink_id, 'bar': bar_id, 'order': TotalOrders }) # An unbound form
