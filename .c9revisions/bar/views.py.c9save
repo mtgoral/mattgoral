@@ -237,3 +237,6 @@
 {"ts":1353893389725,"patch":[[{"diffs":[[0,"tml'"],[-1,", {'orderdetaillist = event.id"],[0,")\r\n "]],"start1":1552,"start2":1552,"length1":38,"length2":8}]],"length":1703,"saved":false}
 {"ts":1353893397204,"patch":[[{"diffs":[[0,"quest, '"],[-1,"bar/orderdetail.html"],[0,"')\r\n    "]],"start1":1527,"start2":1527,"length1":36,"length2":16}]],"length":1683,"saved":false}
 {"ts":1353893398290,"patch":[[{"diffs":[[0,"quest, '"],[1,"/"],[0,"')\r\n    "]],"start1":1527,"start2":1527,"length1":16,"length2":17}]],"length":1684,"saved":false}
+{"ts":1353893671380,"patch":[[{"diffs":[[0,"=drink_id)\r\n    "],[1,"#"],[0,"return render_to"]],"start1":1012,"start2":1012,"length1":32,"length2":33}]],"length":1685,"saved":false}
+{"ts":1353893672467,"patch":[[{"diffs":[[0,"k_id):\r\n    "],[1,"#"],[0,"drink = Drin"]],"start1":969,"start2":969,"length1":24,"length2":25}]],"length":1686,"saved":false}
+{"ts":1353893691519,"patch":[[{"diffs":[[0,"': drink"],[1,"_id"],[0," }) # An"]],"start1":1593,"start2":1593,"length1":16,"length2":19}]],"length":1689,"saved":false}
