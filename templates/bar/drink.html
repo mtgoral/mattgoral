@@ -28,9 +28,7 @@
 
 <form action="/bar/order/" method="post">
 {% csrf_token %}
-    <input type="text" name="quantity">
-    <label for="quantity">quantity x </label><br />
-    <input type="submit" value="Order" />
+    {{form}}
 </form>
 
 </div>
