@@ -16,7 +16,7 @@
 
     {% for drink in menu_list %}
     
-    <a href="/bar/drink{{drink.id}}/"><div class="row"><div class="span12 barname"><p>{{drink.name}}</p></div></div></a>
+    <a href="drink{{drink.id}}/"><div class="row"><div class="span12 barname"><p>{{drink.name}}</p></div></div></a>
     
     {% endfor %}
 

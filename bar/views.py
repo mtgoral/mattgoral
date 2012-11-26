@@ -21,11 +21,14 @@ def orderdetail(request, order_id):
     orderdetail_list = OrderItem.objects.filter(order=order_id)
     return render_to_response('bar/orderdetail.html', {'orderdetail_list': orderdetail_list})
     
-def drink(request, drink_id):
+def drink(request, bar_id, drink_id):
     if request.method == 'POST':
         form = OrderForm(request.POST, request.FILES)
         if form.is_valid():
-            order = Order.objects.get(pk=request.POST['order'])
+            order = Order(bar = Bar.objects.get(pk=bar_id)
+            order.save()
+            #if request.POST['new'] == 'new':
+            #order = Order.objects.get(pk=request.POST['order'])
             drink = Drink.objects.get(pk=request.POST['drink'])
             quantity = request.POST['quantity']
             orderitem = OrderItem(order=order, drink=drink, quantity=quantity)

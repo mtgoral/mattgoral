@@ -19,6 +19,7 @@
 <form id="orderform" method="post">
     {% csrf_token %}
     {{form}}
+    <input type="text" name="new" value="new">
     <input type="submit" value="Submit" />
 </form>
 
