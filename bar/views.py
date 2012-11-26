@@ -17,9 +17,9 @@ def orders(request, bar_id):
     orders_list = Order.objects.filter(bar=bar_id)
     return render_to_response('bar/orders.html', {'orders_list': orders_list})
     
-#def orderdetail(request, order_id):
-#    orderdetail_list = OrderItem.objects.filter(order=order_id)
-#    return render_to_response('bar/drink.html', {'drink': drink})
+def orderdetail(request, bar_id, order_id):
+    orderdetail_list = OrderItem.objects.filter(bar=bar_id).filter(order=order_id)
+    return render_to_response('bar/orderdetail.html', {'orderdetail_list': orderdetail_list})
     
 def drink(request, drink_id):
     drink = Drink.objects.filter(id=drink_id)
