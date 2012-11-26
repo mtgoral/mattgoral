@@ -14,17 +14,12 @@ class Drink(models.Model):
         return self.name
         
 class Order(models.Model):
-    orderId = models.IntegerField()
     bar = models.ForeignKey(Bar)
-    def __unicode__(self):
-        return self.orderId
         
 class OrderItem(models.Model):
     order = models.ForeignKey(Order)
     drink = models.ForeignKey(Drink)
     quantity = models.IntegerField()
-    def __unicode__(self):
-        return self.drink
     
 class OrderForm(ModelForm):
     class Meta:
