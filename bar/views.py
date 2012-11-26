@@ -25,8 +25,13 @@ def drink(request, bar_id, drink_id):
     if request.method == 'POST':
         form = OrderForm(request.POST, request.FILES)
         if form.is_valid():
+            if request.POST['new'] == 'new':
+                neworder = Order(bar = Bar.objects.get(pk=bar_id))
+                neworder.save()
+                order = neworder;
+            else:
+                order = Order.objects.get(pk=request.POST['order'])            
             bar = Bar.objects.get(pk=request.POST['bar'])
-            order = Order.objects.get(pk=request.POST['order'])
             drink = Drink.objects.get(pk=request.POST['drink'])
             quantity = request.POST['quantity']
             orderitem = OrderItem(bar=bar, order=order, drink=drink, quantity=quantity)
@@ -34,9 +39,8 @@ def drink(request, bar_id, drink_id):
             orderid = orderitem.order
             return render(request, '/bar/')
     else:
-        neworder = Order(bar = Bar.objects.get(pk=bar_id))
-        neworder.save()
-        form = OrderForm(initial={'drink': drink_id, 'bar': bar_id, 'order': neworder }) # An unbound form
+        
+        form = OrderForm(initial={'drink': drink_id, 'bar': bar_id, 'order': '1' }) # An unbound form
     return render(request, 'bar/drink.html', { 'form': form })
     
     
