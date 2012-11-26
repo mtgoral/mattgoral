@@ -12,17 +12,8 @@
 
 <div class="container main-gallery">
 
-{% if drink %}
+    <a href="#"><div class="row"><div class="span12 barname"><p class="autoname"></p></div></div></a>
 
-    {% for item in drink %}
-    
-    <a href="#"><div class="row"><div class="span12 barname"><p>{{item.name}}</p></div></div></a>
-    
-    {% endfor %}
-
-{% else %}
-    <p>Nothing here.</p>
-{% endif %}
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
@@ -31,6 +22,10 @@
     {{form}}
     <input type="submit" value="Submit" />
 </form>
+
+<script type="text/javascript">
+    $('.autoname').html() = $("select option:selected").html();
+</script>
 
 </div>
 
