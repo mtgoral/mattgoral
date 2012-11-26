@@ -280,3 +280,7 @@
 {"ts":1353896133207,"patch":[[{"diffs":[[0,"q = "],[-1,"request.POST['order']"],[0,"\r\n  "]],"start1":1090,"start2":1090,"length1":29,"length2":8}]],"length":1590,"saved":false}
 {"ts":1353896135538,"patch":[[{"diffs":[[0,".get(pk="],[-1,"qqq"],[1,"request.POST['order']"],[0,")\r\n     "]],"start1":1129,"start2":1129,"length1":19,"length2":37}]],"length":1608,"saved":false}
 {"ts":1353896139682,"patch":[[{"diffs":[[0,"):\r\n"],[-1,"            qqq = \r\n"],[0,"    "]],"start1":1072,"start2":1072,"length1":28,"length2":8}]],"length":1588,"saved":false}
+{"ts":1353896197806,"patch":[[{"diffs":[[0,"drink = "],[1,"Order.objects.get(pk="],[0,"request."]],"start1":1153,"start2":1153,"length1":16,"length2":37},{"diffs":[[0,"ST['"],[-1,"drink"],[1,"order"],[0,"']"],[1,")"],[0,"\r\n  "]],"start1":1192,"start2":1192,"length1":15,"length2":16}]],"length":1610,"saved":false}
+{"ts":1353896202775,"patch":[[{"diffs":[[0,"drink = "],[-1,"Orde"],[0,"r.object"]],"start1":1153,"start2":1153,"length1":20,"length2":16}]],"length":1606,"saved":false}
+{"ts":1353896204793,"patch":[[{"diffs":[[0,"drink = "],[-1,"r"],[1,"Drink"],[0,".objects"]],"start1":1153,"start2":1153,"length1":17,"length2":21}]],"length":1610,"saved":false}
+{"ts":1353896212027,"patch":[[{"diffs":[[0,"k=request.POST['"],[-1,"order"],[1,"drink"],[0,"'])\r\n           "]],"start1":1180,"start2":1180,"length1":37,"length2":37}]],"length":1610,"saved":false}
