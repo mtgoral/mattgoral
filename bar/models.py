@@ -14,10 +14,10 @@ class Drink(models.Model):
         return self.name
         
 class Order(models.Model):
-    id = models.AutoField(primary_key=True)
+    orderId = models.IntegerField()
     bar = models.ForeignKey(Bar)
     def __unicode__(self):
-        return self.id
+        return self.orderId
         
 class OrderItem(models.Model):
     order = models.ForeignKey(Order)

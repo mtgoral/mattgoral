@@ -120,3 +120,7 @@
 {"ts":1353888073860,"patch":[[{"diffs":[[0,"eignKey("],[1,"Drink"],[0,"\n    qua"]],"start1":605,"start2":605,"length1":16,"length2":21}]],"length":783,"saved":false}
 {"ts":1353888075018,"patch":[[{"diffs":[[0,"ignKey(Drink"],[1,")"],[0,"\n    quantit"]],"start1":606,"start2":606,"length1":24,"length2":25}]],"length":784,"saved":false}
 {"ts":1353889170616,"patch":[[{"diffs":[[0,"(models.Model):\n"],[1,"    id = models.AutoField(primary_key=True)\n"],[0,"    bar = models"]],"start1":407,"start2":407,"length1":32,"length2":76}]],"length":828,"saved":false}
+{"ts":1353889702819,"patch":[[{"diffs":[[0,"els."],[-1,"AutoField(primary_key=True"],[1,"IntegerField("],[0,")\n  "]],"start1":435,"start2":435,"length1":34,"length2":21}]],"length":815,"saved":false}
+{"ts":1353889709478,"patch":[[{"diffs":[[0,"l):\n    "],[1,"order"],[0,"id = mod"]],"start1":419,"start2":419,"length1":16,"length2":21}]],"length":820,"saved":false}
+{"ts":1353889710952,"patch":[[{"diffs":[[0,"   order"],[-1,"i"],[1,"I"],[0,"d = mode"]],"start1":424,"start2":424,"length1":17,"length2":17}]],"length":820,"saved":false}
+{"ts":1353889716046,"patch":[[{"diffs":[[0,"rn self."],[-1,"i"],[1,"orderI"],[0,"d\n      "]],"start1":531,"start2":531,"length1":17,"length2":22}]],"length":825,"saved":false}
