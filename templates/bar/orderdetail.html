@@ -1,0 +1,27 @@
+{% extends "bar/bar_base.html" %}
+
+{% block navtitle %}Menu{% endblock %}
+
+{% block menuitems %}
+<li><a href="#">nothing here</a></li>
+{% endblock %}
+
+{% block content %}
+
+<div class="container main-gallery">
+
+{% if orderdetail_list %}
+
+    {% for item in orderdetail_list %}
+    
+    <div class="row"><div class="span12 barname"><p>{{item.quantity}} x {{item.drink}}</p></div></div>
+    
+    {% endfor %}
+
+{% else %}
+    <p>Nothing here.</p>
+{% endif %}
+
+</div>
+
+{% endblock %}
