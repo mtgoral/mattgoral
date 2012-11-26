@@ -34,7 +34,7 @@ def drink(request, bar_id, drink_id):
             orderitem = OrderItem(order=order, drink=drink, quantity=quantity)
             orderitem.save()
             orderid = orderitem.order
-            return render(request, '/bar/bar' bar_id)
+            return render(request, '/bar/')
     else:
         form = OrderForm(initial={'drink': drink_id, 'bar': bar_id }) # An unbound form
     return render(request, 'bar/drink.html', { 'form': form })
