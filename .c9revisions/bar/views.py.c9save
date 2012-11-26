@@ -352,3 +352,11 @@
 {"ts":1353899051254,"patch":[[{"diffs":[[0,"order': "],[1,"new"],[0,"order })"]],"start1":1683,"start2":1683,"length1":16,"length2":19}]],"length":1802,"saved":false}
 {"ts":1353899055335,"patch":[[{"diffs":[[0,"        "],[-1,"#"],[0,"if reque"]],"start1":1088,"start2":1088,"length1":17,"length2":16}]],"length":1801,"saved":false}
 {"ts":1353899056747,"patch":[[{"diffs":[[0,"        "],[-1,"#"],[0,"order = "]],"start1":1134,"start2":1134,"length1":17,"length2":16}]],"length":1800,"saved":false}
+{"ts":1353899104840,"patch":[[{"diffs":[[0,"    "],[-1,"if request.POST['new'] == 'new':"],[0,"\r\n  "]],"start1":1092,"start2":1092,"length1":40,"length2":8}]],"length":1768,"saved":false}
+{"ts":1353899105753,"patch":[[{"diffs":[[0,"            "],[-1,"\r\n"],[0,"            "]],"start1":1084,"start2":1084,"length1":26,"length2":24}]],"length":1766,"saved":false}
+{"ts":1353899107201,"patch":[[{"diffs":[[0,"lid():\r\n"],[-1,"            "],[0,"        "]],"start1":1076,"start2":1076,"length1":28,"length2":16}]],"length":1754,"saved":false}
+{"ts":1353899124403,"patch":[[{"diffs":[[0,"['order'])\r\n"],[1,"            order = Order.objects.get(pk=request.POST['order'])\r\n"],[0,"            "]],"start1":1137,"start2":1137,"length1":24,"length2":89}]],"length":1819,"saved":false}
+{"ts":1353899129720,"patch":[[{"diffs":[[0,"):\r\n            "],[-1,"orde"],[1,"ba"],[0,"r = Order.object"]],"start1":1080,"start2":1080,"length1":36,"length2":34}]],"length":1817,"saved":false}
+{"ts":1353899133065,"patch":[[{"diffs":[[0,"k=request.POST['"],[-1,"orde"],[1,"ba"],[0,"r'])\r\n          "]],"start1":1121,"start2":1121,"length1":36,"length2":34}]],"length":1815,"saved":false}
+{"ts":1353899137148,"patch":[[{"diffs":[[0,"derItem("],[1,"bar=ba"],[0,"order=or"]],"start1":1350,"start2":1350,"length1":16,"length2":22}]],"length":1821,"saved":false}
+{"ts":1353899138126,"patch":[[{"diffs":[[0,"m(bar=ba"],[1,"r, "],[0,"order=or"]],"start1":1356,"start2":1356,"length1":16,"length2":19}]],"length":1824,"saved":false}

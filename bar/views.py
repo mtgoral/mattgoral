@@ -25,11 +25,11 @@ def drink(request, bar_id, drink_id):
     if request.method == 'POST':
         form = OrderForm(request.POST, request.FILES)
         if form.is_valid():
-            if request.POST['new'] == 'new':
+            bar = Order.objects.get(pk=request.POST['bar'])
             order = Order.objects.get(pk=request.POST['order'])
             drink = Drink.objects.get(pk=request.POST['drink'])
             quantity = request.POST['quantity']
-            orderitem = OrderItem(order=order, drink=drink, quantity=quantity)
+            orderitem = OrderItem(bar=bar, order=order, drink=drink, quantity=quantity)
             orderitem.save()
             orderid = orderitem.order
             return render(request, '/bar/')
