@@ -319,3 +319,4 @@
 {"ts":1353897877123,"patch":[[{"diffs":[[0,"pk=bar_i"],[1,"d)"],[0,"\r\n      "]],"start1":1132,"start2":1132,"length1":16,"length2":18}]],"length":1726,"saved":false}
 {"ts":1353897884480,"patch":[[{"diffs":[[0,"pk=bar_id)\r\n"],[1,"            order.save\r\n"],[0,"            "]],"start1":1132,"start2":1132,"length1":24,"length2":48}]],"length":1750,"saved":false}
 {"ts":1353897885531,"patch":[[{"diffs":[[0,"der.save"],[1,"()"],[0,"\r\n      "]],"start1":1158,"start2":1158,"length1":16,"length2":18}]],"length":1752,"saved":false}
+{"ts":1353898041141,"patch":[[{"diffs":[[0,"t(pk=bar_id)"],[1,")"],[0,"\r\n          "]],"start1":1130,"start2":1130,"length1":24,"length2":25}]],"length":1753,"saved":false}
