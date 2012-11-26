@@ -22,6 +22,8 @@ class OrderItem(models.Model):
     order = models.ForeignKey(Order)
     drink = models.ForeignKey(Drink)
     quantity = models.IntegerField()
+    def __unicode__(self):
+        return self.drink
     
 class OrderForm(ModelForm):
     class Meta:

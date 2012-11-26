@@ -129,3 +129,6 @@
 {"ts":1353890175357,"patch":[[{"diffs":[[0,"d()\n"],[-1,"    def __unicode__(self):\n        return self.drink\n"],[0,"    "]],"start1":603,"start2":603,"length1":61,"length2":8}]],"length":681,"saved":false}
 {"ts":1353890804148,"patch":[[{"diffs":[[0,"ignKey(Bar)\n"],[1,"    def __unicode__(self):\n        return self.name\n"],[0,"        \ncla"]],"start1":444,"start2":444,"length1":24,"length2":76}]],"length":733,"saved":false}
 {"ts":1353890815253,"patch":[[{"diffs":[[0,"      return"],[1," u\"%s\" %"],[0," self."],[-1,"name"],[1,"id"],[0,"\n        \ncl"]],"start1":485,"start2":485,"length1":34,"length2":40}]],"length":739,"saved":false}
+{"ts":1353890898626,"patch":[[{"diffs":[[0,"Field()\n"],[1,"    def __unicode__(self):\n        return self.name\n"],[0,"    \ncla"]],"start1":657,"start2":657,"length1":16,"length2":68}]],"length":791,"saved":false}
+{"ts":1353890908241,"patch":[[{"diffs":[[0,"return self."],[-1,"name"],[0,"\n    \nclass "]],"start1":700,"start2":700,"length1":28,"length2":24}]],"length":787,"saved":false}
+{"ts":1353890909754,"patch":[[{"diffs":[[0,"rn self."],[1,"drink"],[0,"\n    \ncl"]],"start1":704,"start2":704,"length1":16,"length2":21}]],"length":792,"saved":false}
