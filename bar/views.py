@@ -25,7 +25,7 @@ def drink(request, bar_id, drink_id):
     if request.method == 'POST':
         form = OrderForm(request.POST, request.FILES)
         if form.is_valid():
-            bar = Order.objects.get(pk=request.POST['bar'])
+            bar = Bar.objects.get(pk=request.POST['bar'])
             order = Order.objects.get(pk=request.POST['order'])
             drink = Drink.objects.get(pk=request.POST['drink'])
             quantity = request.POST['quantity']
