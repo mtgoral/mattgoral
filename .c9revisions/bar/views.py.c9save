@@ -360,3 +360,6 @@
 {"ts":1353899133065,"patch":[[{"diffs":[[0,"k=request.POST['"],[-1,"orde"],[1,"ba"],[0,"r'])\r\n          "]],"start1":1121,"start2":1121,"length1":36,"length2":34}]],"length":1815,"saved":false}
 {"ts":1353899137148,"patch":[[{"diffs":[[0,"derItem("],[1,"bar=ba"],[0,"order=or"]],"start1":1350,"start2":1350,"length1":16,"length2":22}]],"length":1821,"saved":false}
 {"ts":1353899138126,"patch":[[{"diffs":[[0,"m(bar=ba"],[1,"r, "],[0,"order=or"]],"start1":1356,"start2":1356,"length1":16,"length2":19}]],"length":1824,"saved":false}
+{"ts":1353899229630,"patch":[[{"diffs":[[0,".get(pk="],[-1,"request.POST['bar']"],[1,"b"],[0,"))\r\n    "]],"start1":1580,"start2":1580,"length1":35,"length2":17}]],"length":1806,"saved":false}
+{"ts":1353899230651,"patch":[[{"diffs":[[0,"get(pk=b"],[1,"ar"],[0,"))\r\n    "]],"start1":1581,"start2":1581,"length1":16,"length2":18}]],"length":1808,"saved":false}
+{"ts":1353899232015,"patch":[[{"diffs":[[0,"t(pk=bar"],[1,"_id"],[0,"))\r\n    "]],"start1":1583,"start2":1583,"length1":16,"length2":19}]],"length":1811,"saved":false}
