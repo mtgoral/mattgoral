@@ -108,3 +108,18 @@
 {"ts":1354237780355,"patch":[[{"diffs":[[0,"you can "],[-1,"b"],[1,"put fancy p"],[0,"</h1></d"]],"start1":114,"start2":114,"length1":17,"length2":27}]],"length":495,"saved":false}
 {"ts":1354237782631,"patch":[[{"diffs":[[0," fancy p"],[1,"ictures here"],[0,"</h1></d"]],"start1":125,"start2":125,"length1":16,"length2":28}]],"length":507,"saved":false}
 {"ts":1354237784099,"patch":[[{"diffs":[[0,"res here"],[1,"s"],[0,"</h1></d"]],"start1":137,"start2":137,"length1":16,"length2":17}]],"length":508,"saved":false}
+{"ts":1354237988738,"patch":[[{"diffs":[[0,"t\"><"],[-1,"h1>this is a hero unit. you can put fancy pictures heres</h1>"],[1,"img s"],[0,"</di"]],"start1":86,"start2":86,"length1":69,"length2":13}]],"length":452,"saved":false}
+{"ts":1354237989818,"patch":[[{"diffs":[[0,"\"><img s"],[1,"rc="],[0,"</div>\r\n"]],"start1":87,"start2":87,"length1":16,"length2":19}]],"length":455,"saved":false}
+{"ts":1354237994800,"patch":[[{"diffs":[[0,"img src="],[1,"\"\""],[0,"</div>\r\n"]],"start1":90,"start2":90,"length1":16,"length2":18}]],"length":457,"saved":false}
+{"ts":1354237995606,"patch":[[{"diffs":[[0,"mg src=\""],[1,"http://data.whicdn.com/images/37283750/Girl-Asian-Model-Roses-Jewelry-600x375_large.jpg"],[0,"\"</div>\r"]],"start1":91,"start2":91,"length1":16,"length2":103}]],"length":544,"saved":false}
+{"ts":1354237999845,"patch":[[{"diffs":[[0,"rge.jpg\""],[1,">"],[0,"</div>\r\n"]],"start1":179,"start2":179,"length1":16,"length2":17}]],"length":545,"saved":false}
+{"ts":1354238002423,"patch":[[{"diffs":[[0,"rge.jpg\""],[-1,">"],[1," style"],[0,"</div>\r\n"]],"start1":179,"start2":179,"length1":17,"length2":22}]],"length":550,"saved":false}
+{"ts":1354238003723,"patch":[[{"diffs":[[0,"g\" style"],[1,"=\"\""],[0,"</div>\r\n"]],"start1":185,"start2":185,"length1":16,"length2":19}]],"length":553,"saved":false}
+{"ts":1354238018653,"patch":[[{"diffs":[[0," style=\""],[1,"height"],[0,"\"</div>\r"]],"start1":187,"start2":187,"length1":16,"length2":22}]],"length":559,"saved":false}
+{"ts":1354238019665,"patch":[[{"diffs":[[0,"=\"height"],[1,":"],[0,"\"</div>\r"]],"start1":193,"start2":193,"length1":16,"length2":17}]],"length":560,"saved":false}
+{"ts":1354238024236,"patch":[[{"diffs":[[0,"\"height:"],[1,"300"],[0,"\"</div>\r"]],"start1":194,"start2":194,"length1":16,"length2":19}]],"length":563,"saved":false}
+{"ts":1354238025126,"patch":[[{"diffs":[[0,"ight:300"],[1,"px;"],[0,"\"</div>\r"]],"start1":197,"start2":197,"length1":16,"length2":19}]],"length":566,"saved":false}
+{"ts":1354238029307,"patch":[[{"diffs":[[0,":300px;\""],[1,">"],[0,"</div>\r\n"]],"start1":201,"start2":201,"length1":16,"length2":17}]],"length":567,"saved":false}
+{"ts":1354238030350,"patch":[[{"diffs":[[0,"00px;\"><"],[1,"<"],[0,"/div>\r\n<"]],"start1":203,"start2":203,"length1":16,"length2":17}]],"length":568,"saved":false}
+{"ts":1354238031213,"patch":[[{"diffs":[[0,"00px;\"><"],[-1,"<"],[0,"/div>\r\n<"]],"start1":203,"start2":203,"length1":17,"length2":16}]],"length":567,"saved":false}
+{"ts":1354238032101,"patch":[[{"diffs":[[0,"300px;\">"],[1,"s"],[0,"</div>\r\n"]],"start1":202,"start2":202,"length1":16,"length2":17}]],"length":568,"saved":false}
