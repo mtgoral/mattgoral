@@ -61,3 +61,11 @@
 {"ts":1353518565714,"patch":[[{"diffs":[[0,"html"],[-1,"', {'jewelry_list': jewelry_list}"],[0,")\n  "]],"start1":1112,"start2":1112,"length1":41,"length2":8}]],"length":1327,"saved":false}
 {"ts":1353518566790,"patch":[[{"diffs":[[0,"ery.html"],[1,"'"],[0,")\n    \nd"]],"start1":1108,"start2":1108,"length1":16,"length2":17}]],"length":1328,"saved":false}
 {"ts":1353518570815,"patch":[[{"diffs":[[0,"se('jewelry/"],[-1,"gallery"],[1,"about"],[0,".html')\n    "]],"start1":1092,"start2":1092,"length1":31,"length2":29}]],"length":1326,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1354341849499,"patch":[[{"diffs":[[0,"m': p})\n"],[1,"    \n    def all(request):\n    jewelry_list = Jewelry.objects.all().order_by('id')\n    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})\n"]],"start1":1318,"start2":1318,"length1":8,"length2":177}]],"length":1495,"saved":false}
+{"ts":1354341854247,"patch":[[{"diffs":[[0,"})\n    \n"],[-1,"    "],[0,"def all("]],"start1":1323,"start2":1323,"length1":20,"length2":16}]],"length":1491,"saved":false}
+{"ts":1354341890708,"patch":[[{"diffs":[[0,"welry_list': jewelry_list})\n"],[1,"    \n    def contact(request) :\n    return render_to_response(\"contact.html\")\n"]],"start1":1463,"start2":1463,"length1":28,"length2":106}]],"length":1569,"saved":false}
+{"ts":1354341894170,"patch":[[{"diffs":[[0,"})\n    \n"],[-1,"    "],[0,"def cont"]],"start1":1488,"start2":1488,"length1":20,"length2":16}]],"length":1565,"saved":false}
+{"ts":1354341902005,"patch":[[{"diffs":[[0,"   \ndef "],[-1,"contact"],[0,"(request"]],"start1":1492,"start2":1492,"length1":23,"length2":16}]],"length":1558,"saved":false}
+{"ts":1354341903519,"patch":[[{"diffs":[[0,"   \ndef "],[1,"all"],[0,"(request"]],"start1":1492,"start2":1492,"length1":16,"length2":19}]],"length":1561,"saved":false}
+{"ts":1354341909586,"patch":[[{"diffs":[[0,"se(\""],[-1,"contact"],[0,".htm"]],"start1":1542,"start2":1542,"length1":15,"length2":8}]],"length":1554,"saved":false}
+{"ts":1354341911411,"patch":[[{"diffs":[[0,"sponse(\""],[1,"fuckyou"],[0,".html\")\n"]],"start1":1538,"start2":1538,"length1":16,"length2":23}]],"length":1561,"saved":false}

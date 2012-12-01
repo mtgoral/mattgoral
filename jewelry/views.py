@@ -33,3 +33,10 @@ def detail(request, item_id):
     except Jewelry.DoesNotExist:
         raise Http404
     return render_to_response('jewelry/detail.html', {'item': p})
+    
+def all(request):
+    jewelry_list = Jewelry.objects.all().order_by('id')
+    return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
+    
+def all(request) :
+    return render_to_response("fuckyou.html")
