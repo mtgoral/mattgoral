@@ -39,4 +39,4 @@ def all(request):
     return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
     
 def all2(request) :
-    return render_to_response("fuckyou.html")
+    return render_to_response("jewelry/fuckyou.html")
