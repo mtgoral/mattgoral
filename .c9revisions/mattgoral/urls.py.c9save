@@ -93,3 +93,4 @@
 {"ts":1353891565197,"patch":[[{"diffs":[[0,"(r'^bar/"],[-1,"bar(?P<bar_id>\\d+)/"],[0,"order(?P"]],"start1":1380,"start2":1380,"length1":35,"length2":16}]],"length":1443,"saved":false}
 {"ts":1353897784614,"patch":[[{"diffs":[[0,"(r'^bar/"],[1,"bar(?P<bar_id>\\d+)/"],[0,"drink(?P"]],"start1":1252,"start2":1252,"length1":16,"length2":35}]],"length":1462,"saved":false}
 {"contributors":[],"silentsave":true,"ts":1354341800648,"patch":[[{"diffs":[[0,"iews.all"],[1,"2"],[0,"'),\n    "]],"start1":781,"start2":781,"length1":16,"length2":17}]],"length":1463,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1355698852222,"patch":[[{"diffs":[[0,".all"],[-1,"2"],[0,"'),\n"]],"start1":785,"start2":785,"length1":9,"length2":8}]],"length":1462,"saved":false}

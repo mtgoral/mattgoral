@@ -37,6 +37,4 @@ def detail(request, item_id):
 def all(request):
     jewelry_list = Jewelry.objects.all().order_by('id')
     return render_to_response('jewelry/gallery.html', {'jewelry_list': jewelry_list})
-    
-def all2(request) :
-    return render_to_response("jewelry/fuckyou.html")
+

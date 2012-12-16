@@ -19,7 +19,7 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^jewelry/$', 'jewelry.views.all2'),
+    url(r'^jewelry/$', 'jewelry.views.all'),
     url(r'^jewelry/(?P<item_id>\d+)/$', 'jewelry.views.detail'),
     url(r'^jewelry/earrings/$', 'jewelry.views.earrings'),
     url(r'^jewelry/bracelets/$', 'jewelry.views.bracelets'),
