@@ -16,3 +16,6 @@ def about(request) :
     
 def contact(request) :
     return render_to_response("contact.html")
+    
+def contact(imgupload) :
+    return render_to_response("imgupload/imgupload.html")
