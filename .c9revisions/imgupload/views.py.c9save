@@ -1,0 +1,5 @@
+{"ts":1355785202360,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"# Create your views here.\n"]],"start1":0,"start2":0,"length1":0,"length2":26}]],"length":26}
+{"contributors":[],"silentsave":true,"ts":1355785218702,"patch":[[{"diffs":[[-1,"# Create your views here.\n"],[1,"def imgupload(request) :\r\n    return render_to_response(\"imgupload/imgupload.html\")"]],"start1":0,"start2":0,"length1":26,"length2":83}]],"length":83,"saved":false}
+{"ts":1355785230531,"patch":[[{"diffs":[[1,"\r\n\r\n"],[0,"def imgu"]],"start1":0,"start2":0,"length1":8,"length2":12}]],"length":87,"saved":false}
+{"ts":1355785231568,"patch":[[{"diffs":[[1,"from django.template import Context, loader\r\nfrom django.http import HttpResponse\r\nfrom django.shortcuts import render_to_response\r\n"],[0,"\r\n\r\ndef "]],"start1":0,"start2":0,"length1":8,"length2":140}]],"length":219,"saved":false}
+{"ts":1355785234710,"patch":[[{"diffs":[[0,"onse\r\n\r\n"],[-1,"\r\n"],[0,"def imgu"]],"start1":126,"start2":126,"length1":18,"length2":16}]],"length":217,"saved":false}
