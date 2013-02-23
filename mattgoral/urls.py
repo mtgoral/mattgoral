@@ -34,4 +34,6 @@ urlpatterns = patterns('',
     url(r'^bar/order(?P<order_id>\d+)/$', 'bar.views.orderdetail'),
     
     url(r'^imgupload/$', 'imgupload.views.imgupload'),
+    
+    url(r'^blinq/$', 'mattgoral.views.blinq'),
 )

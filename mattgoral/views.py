@@ -17,3 +17,5 @@ def about(request) :
 def contact(request) :
     return render_to_response("contact.html")
     
+def blinq(request) :
+    return render_to_response("blinq.html")

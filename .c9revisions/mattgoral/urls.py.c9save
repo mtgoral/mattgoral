@@ -100,3 +100,14 @@
 {"ts":1355784126604,"patch":[[{"diffs":[[0,"goral.views."],[-1,"work"],[1,"im"],[0,"'),\n)\n"]],"start1":1495,"start2":1495,"length1":22,"length2":20}]],"length":1515,"saved":false}
 {"ts":1355784128828,"patch":[[{"diffs":[[0,"views.im"],[1,"gupload"],[0,"'),\n)\n"]],"start1":1501,"start2":1501,"length1":14,"length2":21}]],"length":1522,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1355785255726,"patch":[[{"diffs":[[0,"upload/$', '"],[-1,"mattgoral"],[1,"imgupload"],[0,".views.imgup"]],"start1":1479,"start2":1479,"length1":33,"length2":33}]],"length":1522,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1361658839479,"patch":[[{"diffs":[[0,"load'),\n"],[1,"    \n    url(r'^bar/$', 'bar.views.home'),\n"],[0,")\n"]],"start1":1512,"start2":1512,"length1":10,"length2":53}]],"length":1565,"saved":false}
+{"ts":1361658843459,"patch":[[{"diffs":[[0,"    \n    url(r'^"],[-1,"bar"],[0,"/$', 'bar.views."]],"start1":1520,"start2":1520,"length1":35,"length2":32}]],"length":1562,"saved":false}
+{"ts":1361658844855,"patch":[[{"diffs":[[0," url(r'^"],[1,"blin"],[0,"/$', 'ba"]],"start1":1528,"start2":1528,"length1":16,"length2":20}]],"length":1566,"saved":false}
+{"ts":1361658845832,"patch":[[{"diffs":[[0,"(r'^blin"],[1,"q"],[0,"/$', 'ba"]],"start1":1532,"start2":1532,"length1":16,"length2":17}]],"length":1567,"saved":false}
+{"ts":1361658874576,"patch":[[{"diffs":[[0,"^blinq/$', '"],[-1,"bar"],[0,".views.home'"]],"start1":1535,"start2":1535,"length1":27,"length2":24}]],"length":1564,"saved":false}
+{"ts":1361658875724,"patch":[[{"diffs":[[0,"nq/$', '"],[1,"mattg"],[0,".views.h"]],"start1":1539,"start2":1539,"length1":16,"length2":21}]],"length":1569,"saved":false}
+{"ts":1361658876626,"patch":[[{"diffs":[[0,", 'mattg"],[1,"o"],[0,".views.h"]],"start1":1544,"start2":1544,"length1":16,"length2":17}]],"length":1570,"saved":false}
+{"ts":1361658877749,"patch":[[{"diffs":[[0," 'mattgo"],[1,"ral"],[0,".views.h"]],"start1":1545,"start2":1545,"length1":16,"length2":19}]],"length":1573,"saved":false}
+{"ts":1361658880125,"patch":[[{"diffs":[[0,"goral.views."],[-1,"home"],[1,"bl"],[0,"'),\n)\n"]],"start1":1551,"start2":1551,"length1":22,"length2":20}]],"length":1571,"saved":false}
+{"ts":1361658881036,"patch":[[{"diffs":[[0,"views.bl"],[1,"in"],[0,"'),\n)\n"]],"start1":1557,"start2":1557,"length1":14,"length2":16}]],"length":1573,"saved":false}
+{"ts":1361658882257,"patch":[[{"diffs":[[0,"ews.blin"],[1,"q"],[0,"'),\n)\n"]],"start1":1559,"start2":1559,"length1":14,"length2":15}]],"length":1574,"saved":false}
