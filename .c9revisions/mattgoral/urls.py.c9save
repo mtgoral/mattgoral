@@ -111,3 +111,12 @@
 {"ts":1361658880125,"patch":[[{"diffs":[[0,"goral.views."],[-1,"home"],[1,"bl"],[0,"'),\n)\n"]],"start1":1551,"start2":1551,"length1":22,"length2":20}]],"length":1571,"saved":false}
 {"ts":1361658881036,"patch":[[{"diffs":[[0,"views.bl"],[1,"in"],[0,"'),\n)\n"]],"start1":1557,"start2":1557,"length1":14,"length2":16}]],"length":1573,"saved":false}
 {"ts":1361658882257,"patch":[[{"diffs":[[0,"ews.blin"],[1,"q"],[0,"'),\n)\n"]],"start1":1559,"start2":1559,"length1":14,"length2":15}]],"length":1574,"saved":false}
+{"ts":1361660840876,"patch":[[{"diffs":[[0,"    "],[-1,"url(r'^blinq/$', 'mattgoral.views.blinq'),"],[0,"\n)\n"]],"start1":1525,"start2":1525,"length1":49,"length2":7}]],"length":1532,"saved":false}
+{"ts":1361660843093,"patch":[[{"diffs":[[0,"   \n    "],[1,"url(r'^blinq/$', 'mattgoral.views.blinq'),"],[0,"\n)\n"]],"start1":1521,"start2":1521,"length1":11,"length2":53}]],"length":1574,"saved":false}
+{"ts":1361661396529,"patch":[[{"diffs":[[0,"'),\n"],[-1,"    \n    url(r'^blinq/$', 'mattgoral.views.blinq'),"],[0,"\n)\n"]],"start1":1516,"start2":1516,"length1":58,"length2":7}]],"length":1523,"saved":false}
+{"ts":1361661404516,"patch":[[{"diffs":[[0,".contact'),\n"],[1,"    url(r'^contact/$', 'mattgoral.views.contact'),\n"],[0,"    # url(r'"]],"start1":436,"start2":436,"length1":24,"length2":75}]],"length":1574,"saved":false}
+{"ts":1361661410273,"patch":[[{"diffs":[[0,"t'),\n    url(r'^"],[-1,"contact"],[0,"/$', 'mattgoral."]],"start1":443,"start2":443,"length1":39,"length2":32}]],"length":1567,"saved":false}
+{"ts":1361661411861,"patch":[[{"diffs":[[0," url(r'^"],[1,"blin"],[0,"/$', 'ma"]],"start1":451,"start2":451,"length1":16,"length2":20}]],"length":1571,"saved":false}
+{"ts":1361661413356,"patch":[[{"diffs":[[0,"(r'^blin"],[1,"q"],[0,"/$', 'ma"]],"start1":455,"start2":455,"length1":16,"length2":17}]],"length":1572,"saved":false}
+{"ts":1361661417133,"patch":[[{"diffs":[[0,"mattgoral.views."],[-1,"contact"],[0,"'),\n    # url(r'"]],"start1":470,"start2":470,"length1":39,"length2":32}]],"length":1565,"saved":false}
+{"ts":1361661418874,"patch":[[{"diffs":[[0,"l.views."],[1,"blinq"],[0,"'),\n    "]],"start1":478,"start2":478,"length1":16,"length2":21}]],"length":1570,"saved":false}

@@ -11,6 +11,7 @@ urlpatterns = patterns('',
     url(r'^resume/$', 'mattgoral.views.resume'),
     url(r'^about/$', 'mattgoral.views.about'),
     url(r'^contact/$', 'mattgoral.views.contact'),
+    url(r'^blinq/$', 'mattgoral.views.blinq'),
     # url(r'^mattgoral/', include('mattgoral.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
@@ -34,6 +35,5 @@ urlpatterns = patterns('',
     url(r'^bar/order(?P<order_id>\d+)/$', 'bar.views.orderdetail'),
     
     url(r'^imgupload/$', 'imgupload.views.imgupload'),
-    
-    url(r'^blinq/$', 'mattgoral.views.blinq'),
+
 )
