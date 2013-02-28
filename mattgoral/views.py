@@ -19,3 +19,6 @@ def contact(request) :
     
 def blinq(request) :
     return render_to_response("blinq.html")
+    
+def fivelines(request) :
+    return render_to_response("5lines.html")
