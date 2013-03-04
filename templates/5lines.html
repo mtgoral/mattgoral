@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML5 Canvas Paint App - Mobile Web</title>
+<title>5 lines</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <style type="text/css">
-body
-{
-  margin:20px;
-  padding:0;
-}
-#paintBox
-{
-  border:1px solid #9a9a9a;
-}
+body{margin:0;padding:0;font-family:sans-serif;color:#333;}
+#paintBox{}
+.menuButton{position:absolute;top:0px;left:0px;z-index:99;background-color:#eee;border:1px solid #ddd;padding:10px 20px;}
+.menu{display:none;position:absolute;top:0px;left:0px;z-index:100;background-color:#eee;padding:4%;width:40%;height:70%;}
+.menubutton {background-color:#ddd;text-align:center;padding:10px 0;border:1px solid #ccc;margin:20px 0;}
+#closemenu{position:absolute;top:10px;right:10px;padding:5px 10px;background-color:#ddd;margin:0;border:1px solid #ccc;}
+#paintbrush{width:1px;height:1px;background-color:#000;border-radius:1px;margin:20px auto;}
+#widthSlider{width:100%;}
+.colors{height:50px;margin:20px 0 30px 0;}
+.colorBtn{width:10%;height:100%;float:left;}
+
 </style>
 <script type="text/javascript">
   var canvas = null; //canvas object
   var context = null; //canvas's context object
-  var clearBtn = null; //clear button object
+  var lines = new Array();
 
   /*boolean var to check if the touchstart event
   is caused and then record the initial co-ordinate*/
@@ -29,21 +31,23 @@ body
   function initApp() {
     setTimeout(function() { window.scrollTo(0, 1); }, 10); //hide the address bar of the browser.
     canvas = document.getElementById('paintBox');
-    clearBtn = document.getElementById('clearBtn');
 
     setCanvasDmiension();
     initializeEvents();
     
     context = canvas.getContext('2d'); //get the 2D drawing context of the canvas
 
-    lines();
+    context.lineCap = 'round';
+
+    computelines();
+    drawlines();
 
 }
 
 function setCanvasDmiension() {
   //canvas.width = 300; //window.innerWidth;
-  canvas.width = window.innerWidth - 40;
-  canvas.height = window.innerHeight - 100; //setting the height of the canvas
+  canvas.width = window.innerWidth-5;
+  canvas.height = window.innerHeight-5; //setting the height of the canvas
 }
 
 function initializeEvents() {
@@ -53,24 +57,45 @@ function initializeEvents() {
   canvas.addEventListener('mousemove', continuePaintDesk, false);
   canvas.addEventListener('touchend', stopPaint, false);
   canvas.addEventListener('mouseup', stopPaint, false);
-
-  clearBtn.addEventListener('touchend', clearCanvas,false);
 }
 
-function lines() {
+function computelines() {
   var i = 0;
   while (i<5)
   {
-  context.beginPath();
-  context.moveTo(Math.floor(Math.random()*canvas.width),Math.floor(Math.random()*canvas.height));
-  context.lineTo(Math.floor(Math.random()*canvas.width),Math.floor(Math.random()*canvas.height));
-  context.stroke();
+    var xpos = (canvas.width*.2)+Math.floor(Math.random()*(canvas.width*.6));
+    var ypos = (canvas.height*.2)+Math.floor(Math.random()*(canvas.height*.6));
+    var x1 = xpos + Math.floor(Math.random()*200) - 100;
+    var y1 = ypos + Math.floor(Math.random()*200) - 100;
+    var x2 = xpos + Math.floor(Math.random()*200) - 100;
+    var y2 = ypos + Math.floor(Math.random()*200) - 100;
+    var x3 = xpos + Math.floor(Math.random()*200) - 100;
+    var y3 = ypos + Math.floor(Math.random()*200) - 100;
+    lines[i] = [xpos,ypos,x1,y1,x2,y2,x3,y3];
   i++;
 }
 }
 
+function drawlines() {
+  var j = 0;
+while (j < 5){
+context.beginPath();
+  context.moveTo(lines[j][0],lines[j][1]);
+  context.bezierCurveTo(lines[j][2],lines[j][3],lines[j][4],lines[j][5],lines[j][6],lines[j][7],lines[j][8]);
+  context.stroke();
+  j++;
+}
+}
+
 function clearCanvas() {
+  var currentStrokeColor = context.strokeStyle;
+  var currentStrokeWidth = context.lineWidth;
+  context.strokeStyle = '#000000';
+  context.lineWidth = 1;
   context.clearRect(0,0,canvas.width,canvas.height);
+  drawlines();
+  context.strokeStyle = currentStrokeColor;
+  context.lineWidth = currentStrokeWidth;
 }
 
 function startPaint(evt) {
@@ -112,10 +137,41 @@ function continuePaintDesk(evt) {
 function stopPaint() {
   buttonDown = false;
 }
+
+function showMenu() {
+  document.getElementById("menu").style.display="block";
+}
+
+function closeMenu() {
+  document.getElementById("menu").style.display="none";
+}
+
+function setWidth(width) {
+  context.lineWidth = width;
+  document.getElementById("paintbrush").style.width=width + 'px';
+  document.getElementById("paintbrush").style.height=width + 'px';
+  document.getElementById("paintbrush").style.borderRadius=width + 'px';
+}
+
+function setColor(color) {
+  context.strokeStyle = color;
+  document.getElementById("paintbrush").style.backgroundColor=color;
+}
 </script>
 </head>
 <body>
-  <p><input type="button" value="Clear" id="clearBtn"/></p>
+  <div class="menuButton" onClick="showMenu()">Menu</div>
+  <div class="menu" id="menu">
+    <div  id="closemenu" onClick="closeMenu()">X</div>
+    <div id="paintbrush"></div>
+    <input id="widthSlider" type="range" min="1" max="50" step="1" value="1" onchange="setWidth(this.value)" />
+    <div class="colors">
+      <div class="colorBtn" onClick="setColor('#FF0000')" style="background-color:#FF0000"></div>
+      <div class="colorBtn" onClick="setColor('#00FF00')" style="background-color:#00FF00"></div>
+      <div class="colorBtn" onClick="setColor('#0000FF')" style="background-color:#0000FF"></div>
+    </div>
+    <div class="menubutton" onClick="clearCanvas()">Clear Canvas</div>
+</div>
   <canvas id="paintBox">
     Your browser doesnot support canvas
   </canvas>
