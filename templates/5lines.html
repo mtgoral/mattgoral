@@ -7,7 +7,7 @@
 body{margin:0;padding:0;font-family:sans-serif;color:#333;}
 #paintBox{}
 .menuButton{position:absolute;top:0px;left:0px;z-index:99;background-color:#eee;border:1px solid #ddd;padding:10px 20px;}
-.menu{display:none;position:absolute;top:0px;left:0px;z-index:100;background-color:#eee;padding:4%;width:40%;height:70%;}
+.menu{display:none;position:absolute;top:0px;left:0px;z-index:100;background-color:#eee;padding:4%;width:40%;}
 .menubutton {background-color:#ddd;text-align:center;padding:10px 0;border:1px solid #ccc;margin:20px 0;}
 #closemenu{position:absolute;top:10px;right:10px;padding:5px 10px;background-color:#ddd;margin:0;border:1px solid #ccc;}
 #paintbrush{width:1px;height:1px;background-color:#000;border-radius:1px;margin:20px auto;}
@@ -173,6 +173,7 @@ function setColor(color) {
       <div class="colorBtn" onClick="setColor('#0000FF')" style="background-color:#0000FF"></div>
     </div>
     <div class="menubutton" onClick="clearCanvas()">Clear Canvas</div>
+    <div class="menubutton" onClick="location.reload()">New Lines</div>
 </div>
   <canvas id="paintBox">
     Your browser doesnot support canvas
