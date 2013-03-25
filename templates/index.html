@@ -1,9 +1,167 @@
-{% extends "base.html" %}
+<!doctype html>
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+	<style>
+		body{margin:0;padding:0;background-color:#111111;font-family:helvetica, arial, sans-serif;}
+		#header{width:100%;background-color:#090909;border-bottom:1px solid #222222;float:left;}
+		#logo{display:block;float:left;}
+		#header > a {float:right;line-height:55px;padding:0 20px;margin:40px 0 5px 0;text-decoration:none;color:#ffffff;text-shadow:1px 1px 0px #000000;
+			font-family: 'Source Sans Pro', sans-serif;}
+		#header > a:hover {color:#aaaaaa;border-bottom:5px solid #222222;margin-bottom:0;}
+		#header > a:active {text-shadow:-1px -1px 0px #000000;margin-bottom:0;}
 
-{% block content %}
-    <div style="margin-top:50px;" id="content">
-		<p class="big">hello.</p>
-        <p class="big">I make</p>
-        <p class="big">digital art</p>
+		.hero{background-image:url('https://dl.dropbox.com/u/874495/mattyghero.jpg');background-repeat:no-repeat; background-position:center center; background-size: cover;width:100%;overflow:auto;border-bottom:1px solid #333333;}
+		.hero-text {margin:0 auto;width:1150px;}
+		.hero-text > h1{color:#ffffff;font-size:150px;line-height:150px;letter-spacing:-2px;text-shadow:1px 1px 0px #000000;display:inline-block;margin:150px 0 120px 0;}
+		.hero-text > p {color:#ffffff;font-size:30px;line-height:30px;margin:0 0 10px 0;text-align:right;font-weight:700;letter-spacing:-1px;}
+		.hero-text > p > span {font-size:15px;line-height: 30px;}
+		.content{margin:0 auto;width:98%;}
+		.work {width:49%;margin:.5%;float:left;overflow:auto;}
+		.work > img {width:100%;display: block;}
+		.workinfo {position:absolute;bottom:0px;left:0px;color:#fff;
+			background-image: -webkit-gradient(  linear, left top, left bottom, from(rgba(0,0,0,0.0)),to(rgba(0,0,0,1.0)));width:90%;padding:0 5%;text-shadow: 0 0 3px rgba(0, 0, 0, .75);}
+		.workinfo > h3 {padding:20px 0 5px 0; border-bottom: 1px solid #999;margin:0;}
+		.workinfo > p {padding:5px 0 30px 0;margin:0;}
+		.workinfo > p > a {color:#fff;}
+		.workinfo > p > a:hover {color:#ddd;}
+
+		#footer{width:96%;background-image:url('wht2.png');font-size:10px;line-height:20px;color:#666;padding:0 2%;text-align:right;border-top:1px solid #333333;}
+		#footer > p {margin:0;}
+	</style>
+
+</head>
+
+<body>
+	<header id="header">
+		<img id="logo" src="https://dl.dropbox.com/u/874495/mattyglogo.png">
+		<a href="mailto:m@ttgor.al" target="_blank" style="margin-right:80px;">Contact</a>
+		<a href="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/mattgoral.resume.pdf" target="_blank">Resume</a>
+	</header>
+	<div class="hero">
+		<div class="hero-text">
+			<h1>Hello.<br />I make digital art</h1>
+			<p>check it out <span>&#9660;</span></p>
+		</div>
 	</div>
-{% endblock %}
+	<div class="content" id="container">
+		<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/fbuy2.png" style="display:none;" />
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/fbuy3.png" onmouseover="this.src='https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/fbuy2.png'" onmouseout="this.src='https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/fbuy3.png'"/>
+			<div class="workinfo">
+				<h3>Friendbuy</h3>
+				<p>Did front end development and coded custom sharing widgets for Friendbuy powered sharing</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/tempest.png" />
+			<div class="workinfo">
+				<h3>TEMP3ST music</h3>
+				<p>Band portfolio for the LA based music group TEMP3ST</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/tempest2.png" />
+			<div class="workinfo">
+				<h3>TEMP3ST mk II</h3>
+				<p>A redesign in progress for TEMP3ST</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/blinq.png" />
+			<div class="workinfo">
+				<h3>Blinq photo</h3>
+				<p>Currently in the process of revamping the user experience for the blinq photo web app.</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/eas.png" />
+			<div class="workinfo">
+				<h3>Efficient Air Systems</h3>
+				<p>A small business site for a home air duct efficiency company.</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/mattyg.png" />
+			<div class="workinfo">
+				<h3>mattyg.mit.edu</h3>
+				<p>An experimental portfolio make entirely in pixel perfect scalable vectors.</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/carsick2.png" />
+			<div class="workinfo">
+				<h3>Carsick</h3>
+				<p>Design of an app to rate drivers for kayak.com</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/dots.png" />
+			<div class="workinfo">
+				<h3>Javascript/Canvas game</h3>
+				<p>A little doodle. Web app made using html 5's canvas and javascript. Move with wasd and shoot with the mouse. <a href="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/zombies.html" target="_blank">Play it!</a></p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/vanished.png" />
+			<div class="workinfo">
+				<h3>Vanished</h3>
+				<p>Flash games and website design for a transmedia game about global warming for the MIT Media Lab/Education Arcade</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/jewelry.png" />
+			<div class="workinfo">
+				<h3>A django/js/bootstrap jewelry gallery</h3>
+				<p>Another doodle to experiment with fancy layouts.</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<img src="https://dl.dropbox.com/u/874495/ec2/mattgoral_site/work_img/mlp.png" />
+			<div class="workinfo">
+				<h3>MLP Heating and Cooling</h3>
+				<p>Small business website for a HVAC intallation company.</p>
+			</div>
+		</div>
+
+		
+		
+	</div>
+	<footer id="footer">
+		<p>love, matt goral</p>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="https://dl.dropbox.com/u/874495/jquery.imagesloaded.min.js"></script>
+	<script src="https://dl.dropbox.com/u/874495/jquery.masonry.min.js"></script>
+	<script type="text/javascript">
+		$(".workinfo").animate({height: 'toggle'}, 100, function() {});
+
+		$(".work").mouseenter(function() {
+		    $(this).find(".workinfo").animate({height: 'toggle'}, 100, function() {});
+		  }).mouseleave(function(){
+		    $(this).find(".workinfo").animate({height: 'toggle'}, 100, function() {});
+		  });
+
+  		$('.content').css('marginTop',$('.content').css('marginLeft'));
+		var $container = $('#container');
+		$container.imagesLoaded(function(){
+	  		$container.masonry({
+	    			itemSelector : '.work',
+	    			isFitWidth: true
+	  		});
+		});
+	</script>
+</body>
+
+</html>
