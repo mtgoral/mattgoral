@@ -1,0 +1,15 @@
+{"ts":1364776985448,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1364777001888,"patch":[[{"diffs":[[1,"<"]],"start1":0,"start2":0,"length1":0,"length2":1}]],"length":1,"saved":false}
+{"ts":1364777005195,"patch":[[{"diffs":[[0,"<"],[1,"!doctype "]],"start1":0,"start2":0,"length1":1,"length2":10}]],"length":10,"saved":false}
+{"ts":1364777005631,"patch":[[{"diffs":[[0,"doctype "],[1,"ho"]],"start1":2,"start2":2,"length1":8,"length2":10}]],"length":12,"saved":false}
+{"ts":1364777006395,"patch":[[{"diffs":[[0,"ctype ho"],[1,"t"]],"start1":4,"start2":4,"length1":8,"length2":9}]],"length":13,"saved":false}
+{"ts":1364777008009,"patch":[[{"diffs":[[0,"octype h"],[-1,"o"],[0,"t"]],"start1":3,"start2":3,"length1":10,"length2":9}]],"length":12,"saved":false}
+{"ts":1364777009219,"patch":[[{"diffs":[[0,"ctype ht"],[1,"ml"]],"start1":4,"start2":4,"length1":8,"length2":10}]],"length":14,"saved":false}
+{"ts":1364777011197,"patch":[[{"diffs":[[0,"ype html"],[1,"><jt"]],"start1":6,"start2":6,"length1":8,"length2":12}]],"length":18,"saved":false}
+{"ts":1364777011439,"patch":[[{"diffs":[[0,"html><jt"],[1,",;"]],"start1":10,"start2":10,"length1":8,"length2":10}]],"length":20,"saved":false}
+{"ts":1364777013401,"patch":[[{"diffs":[[0,"ml><"],[-1,"jt,;"],[1,"html"]],"start1":12,"start2":12,"length1":8,"length2":8}]],"length":20,"saved":false}
+{"ts":1364777015284,"patch":[[{"diffs":[[0,"e html><html"],[1,"><</html>"]],"start1":8,"start2":8,"length1":12,"length2":21}]],"length":29,"saved":false}
+{"ts":1364777017481,"patch":[[{"diffs":[[0,"><html><"],[1,"head></head>"],[0,"</html>"]],"start1":14,"start2":14,"length1":15,"length2":27}]],"length":41,"saved":false}
+{"ts":1364777019878,"patch":[[{"diffs":[[0,"><head><"],[1,"meta HTTP-EQUIV=\"REFRESH\" content=\"0; url=http://www.yourdomain.com/index.html\"><"],[0,"/head></"]],"start1":20,"start2":20,"length1":16,"length2":97}]],"length":122,"saved":false}
+{"ts":1364777039945,"patch":[[{"diffs":[[0,"p://"],[-1,"www.yourdomain.com/index.html"],[1,"prezi.com/ihdokknwnqa0/present/?auth_key=yopc8lp&follow=2umqrl46jf5p&kw=present-ihdokknwnqa0&rc=ref-33781897"],[0,"\"></"]],"start1":73,"start2":73,"length1":37,"length2":116}]],"length":201,"saved":false}
+{"ts":1364777043503,"patch":[[{"diffs":[[0,"\"0; url="],[1,"\""],[0,"http://p"]],"start1":62,"start2":62,"length1":16,"length2":17}]],"length":202,"saved":false}

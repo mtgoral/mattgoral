@@ -13,6 +13,7 @@ urlpatterns = patterns('',
     url(r'^contact/$', 'mattgoral.views.contact'),
     url(r'^blinq/$', 'mattgoral.views.blinq'),
     url(r'^5lines/$', 'mattgoral.views.fivelines'),
+    url(r'^wcc/$', 'mattgoral.views.wcc'),
     # url(r'^mattgoral/', include('mattgoral.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

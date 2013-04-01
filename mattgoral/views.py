@@ -22,3 +22,6 @@ def blinq(request) :
     
 def fivelines(request) :
     return render_to_response("5lines.html")
+    
+def wcc(request) :
+    return render_to_response("wcc.html")
