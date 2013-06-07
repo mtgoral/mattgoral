@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+
+    
+	<style>
+		body{margin:0;padding:0;}
+
+		.one { -webkit-transform: rotate(30deg); }
+		.two { -webkit-transform: rotate(60deg); }
+		.three { -webkit-transform: rotate(90deg); }
+		.four { -webkit-transform: rotate(120deg); }
+		.five { -webkit-transform: rotate(150deg); }
+		.six { -webkit-transform: rotate(180deg); }
+		.seven { -webkit-transform: rotate(210deg); }
+		.eight { -webkit-transform: rotate(240deg); }
+		.nine { -webkit-transform: rotate(270deg); }
+		.ten { -webkit-transform: rotate(300deg); }
+		.eleven { -webkit-transform: rotate(330deg); }
+		.twelve { -webkit-transform: rotate(360deg); }
+
+		.s_1 { -webkit-transform: rotate(6deg); }
+		.s_2 { -webkit-transform: rotate(12deg); }
+		.s_3 { -webkit-transform: rotate(18deg); }
+		.s_4 { -webkit-transform: rotate(24deg); }
+		.s_5 { -webkit-transform: rotate(30deg); }
+		.s_6 { -webkit-transform: rotate(36deg); }
+		.s_7 { -webkit-transform: rotate(42deg); }
+		.s_8 { -webkit-transform: rotate(48deg); }
+		.s_9 { -webkit-transform: rotate(54deg); }
+		.s_10 { -webkit-transform: rotate(60deg); }
+		.s_11 { -webkit-transform: rotate(66deg); }
+		.s_12 { -webkit-transform: rotate(72deg); }
+		.s_13 { -webkit-transform: rotate(78deg); }
+		.s_14 { -webkit-transform: rotate(84deg); }
+		.s_15 { -webkit-transform: rotate(90deg); }
+		.s_16 { -webkit-transform: rotate(96deg); }
+		.s_17 { -webkit-transform: rotate(102deg); }
+		.s_18 { -webkit-transform: rotate(108deg); }
+		.s_19 { -webkit-transform: rotate(114deg); }
+		.s_20 { -webkit-transform: rotate(120deg); }
+		.s_21 { -webkit-transform: rotate(126deg); }
+		.s_22 { -webkit-transform: rotate(132deg); }
+		.s_23 { -webkit-transform: rotate(138deg); }
+		.s_24 { -webkit-transform: rotate(144deg); }
+		.s_25 { -webkit-transform: rotate(150deg); }
+		.s_26 { -webkit-transform: rotate(156deg); }
+		.s_27 { -webkit-transform: rotate(162deg); }
+		.s_28 { -webkit-transform: rotate(168deg); }
+		.s_29 { -webkit-transform: rotate(174deg); }
+
+
+		.watch{background-color:#000;width:200px;height:200px;border-radius:100%;position:absolute;top:50px;left:50px;}
+		.face{position: absolute;z-index: 0;}
+
+		.css3{position: absolute;text-align: center;top:45px;left:84px;color:#fff;}
+		.bymattgoral{position: absolute;text-align: center;top:115px;left:74px;color:#fff;font-size: 10px;}
+
+		.seconds > span {position: absolute;top:2px;left:99px;width:2px;height:198px;background-color:#fff;z-index: 1;}
+
+
+		.face_blackout{width:180px;height:180px;position: absolute;top:10px;left:10px;background-color: #000;border-radius: 100%;z-index: 2;}
+
+
+		.arrow {position: absolute;top:20px;left:94px;z-index:5;width: 0;height: 0; border-left: 6px solid transparent;border-right: 6px solid transparent;	border-top: 18px solid #fff;}
+		.arrow_outline {position: absolute;top:18px;left:90px;z-index:4;width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: 26px solid #999;}
+		.dot, .bar{z-index: 5;}
+		.dot, .bar, .seconds {width:200px;height: 200px;position: absolute;}
+		.dot > span {position:absolute;top:20px;left:94px;z-index:5;width:10px;height:10px;border: 2px solid #999;background-color: #fff;border-radius: 100%;}
+		.bar > span {position:absolute;top:20px;left:95px;z-index:5;width:8px;height:20px;border: 2px solid #999;background-color: #fff;border-radius: 10%;}
+
+		/* hour hand 6-8 */
+		.hour{position:absolute;z-index:7;width:200px;height:200px;animation:hourhand 43200s linear infinite;-webkit-animation:hourhand 43200s linear infinite;}
+		.hour_body{position:absolute;top:70px;left:96px;width:4px;height:30px;border:2px solid #999;background-color: #fff;z-index:7;}
+		.hour_circle{position:absolute;top:55px;left:90px;width:16px;height:16px;border:2px solid #999;background-color: #fff;z-index:8;border-radius: 100%;}
+		.hour_circle > span {position: absolute;width:16px;height: 16px;}
+		.hour_circle > span > span{width:2px;height:9px;position: absolute;left:7px;background-color: #999;}
+		.hour_tip {position:absolute;top:43px;left:96px;z-index:7;width: 0;height: 0;border-left: 4px solid transparent;border-right: 4px solid transparent;border-bottom: 15px solid #fff;}
+		.hour_tip_outline {position:absolute;top:41px;left:94px;z-index:6;width: 0;height: 0;border-left: 6px solid transparent;border-right: 6px solid transparent;border-bottom: 17px solid #999;}
+
+		/* minute hand 9 */
+		.minute{position:absolute;z-index:9;width:200px;height:200px;animation:minutehand 3600s linear infinite;-webkit-animation:minutehand 3600s linear infinite;}
+		.minute_body{position:absolute;top:50px;left:96px;width:4px;height:50px;border:2px solid #999;background-color: #fff;z-index:9;}
+		.minute_tip {position:absolute;top:35px;left:96px;z-index:9;width: 0;height: 0;border-left: 4px solid transparent;border-right: 4px solid transparent;border-bottom: 15px solid #999;}
+		
+		/* second hand 11-12 */
+		.second{z-index:11;position:absolute;width:200px;height:200px;animation:secondhand 60s linear infinite;-webkit-animation:secondhand 60s linear infinite;}
+		.second_line{width:2px;height:110px;background-color: #999;position:absolute;top:10px;left:99px;z-index:11;}
+		.second_decoration{position:absolute;top:40px;left:95px;width:6px;height:6px;border:2px solid #999;background-color: #fff;border-radius: 100%;z-index:12;}
+		.second_decoration2{position:absolute;top:115px;left:97px;width:6px;height:6px;background-color: #999;border-radius: 100%;z-index:12;}
+
+		
+
+		.pin{background-color: #999;width:12px;height:12px;border-radius:100%;position:absolute;top:94px;left:94px;z-index:11;}
+
+		
+
+
+	</style>
+
+	<script type="text/javascript">
+
+			var currentdate = new Date();
+
+			var stylesheet = document.styleSheets[document.styleSheets.length - 1];
+
+			var hour;
+			if (currentdate.getHours() > 12) {hour = currentdate.getHours() - 12;} else { hour = currentdate.getHours();}
+			console.log(hour);
+			var hourstart = .5 * (60*hour + currentdate.getMinutes());
+			var hourend = hourstart+360;
+			stylesheet.insertRule("@-webkit-keyframes hourhand { 0% { -webkit-transform: rotate(" + hourstart + "deg); } 100% { -webkit-transform: rotate(" + hourend + "deg); } }", stylesheet.cssRules.length);
+
+			var minutestart = 6*currentdate.getMinutes();
+			var minuteend = 6*currentdate.getMinutes()+360;
+			stylesheet.insertRule("@-webkit-keyframes minutehand { 0% { -webkit-transform: rotate(" + minutestart + "deg); } 100% { -webkit-transform: rotate(" + minuteend + "deg); } }", stylesheet.cssRules.length);
+
+
+			var secondstart = 6*currentdate.getSeconds();
+			var secondend = 6*currentdate.getSeconds()+360;
+			stylesheet.insertRule("@-webkit-keyframes secondhand { 0% { -webkit-transform: rotate(" + secondstart + "deg); } 100% { -webkit-transform: rotate(" + secondend + "deg); } }", stylesheet.cssRules.length);
+
+	</script>
+</head>
+
+<body>
+	<div class="watch">
+		<div class="face">
+			<div class="face_blackout"></div>
+			<div class="arrow"></div>
+			<div class="arrow_outline"></div>
+			<div class="dot one"><span></span></div>
+			<div class="dot two"><span></span></div>
+			<div class="bar three"><span></span></div>
+			<div class="dot four"><span></span></div>
+			<div class="dot five"><span></span></div>
+			<div class="bar six"><span></span></div>
+			<div class="dot seven"><span></span></div>
+			<div class="dot eight"><span></span></div>
+			<div class="bar nine"><span></span></div>
+			<div class="dot ten"><span></span></div>
+			<div class="dot eleven"><span></span></div>
+			<div class="seconds"><span></span></div>
+			<div class="seconds s_1"><span></span></div>
+			<div class="seconds s_2"><span></span></div>
+			<div class="seconds s_3"><span></span></div>
+			<div class="seconds s_4"><span></span></div>
+			<div class="seconds s_5"><span></span></div>
+			<div class="seconds s_6"><span></span></div>
+			<div class="seconds s_7"><span></span></div>
+			<div class="seconds s_8"><span></span></div>
+			<div class="seconds s_9"><span></span></div>
+			<div class="seconds s_10"><span></span></div>
+			<div class="seconds s_11"><span></span></div>
+			<div class="seconds s_12"><span></span></div>
+			<div class="seconds s_13"><span></span></div>
+			<div class="seconds s_14"><span></span></div>
+			<div class="seconds s_15"><span></span></div>
+			<div class="seconds s_16"><span></span></div>
+			<div class="seconds s_17"><span></span></div>
+			<div class="seconds s_18"><span></span></div>
+			<div class="seconds s_19"><span></span></div>
+			<div class="seconds s_20"><span></span></div>
+			<div class="seconds s_21"><span></span></div>
+			<div class="seconds s_22"><span></span></div>
+			<div class="seconds s_23"><span></span></div>
+			<div class="seconds s_24"><span></span></div>
+			<div class="seconds s_25"><span></span></div>
+			<div class="seconds s_26"><span></span></div>
+			<div class="seconds s_27"><span></span></div>
+			<div class="seconds s_28"><span></span></div>
+			<div class="seconds s_29"><span></span></div>
+		</div>
+		<p class="css3">CSS3</p>
+		<p class="bymattgoral">by Matt Goral</p>
+		<div class="hour">
+			<div class="hour_body"></div>
+			<div class="hour_circle">
+				<span><span></span></span>
+				<span class="four"><span></span></span>
+				<span class="eight"><span></span></span>
+			</div>
+			<div class="hour_tip"></div>
+			<div class="hour_tip_outline"></div>
+		</div>
+
+		<div class="minute">
+			<div class="minute_body"></div>
+			<div class="minute_tip"></div>
+		</div>
+		<div class="second">
+			<div class="second_decoration"></div>
+			<div class="second_decoration2"></div>
+			<div class="second_line"></div>
+		</div>
+		<div class="pin"></div>
+	</div>
+	
+</body>
+</html>

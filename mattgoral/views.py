@@ -25,3 +25,6 @@ def fivelines(request) :
     
 def wcc(request) :
     return render_to_response("wcc.html")
+    
+def clock(request) :
+    return render_to_response("clock.html")
